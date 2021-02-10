@@ -1,4 +1,10 @@
-### Hi there 👋
+<a href="https://github.com/Andres6936/Curriculum-Vitae">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Andres6936&count_private=true"/>
+</a>
+
+<a href="https://github.com/Andres6936/Curriculum-Vitae">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Andres6936"/>
+</a>
 
 <!--
 **Andres6936/Andres6936** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
