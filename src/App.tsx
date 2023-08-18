@@ -80,7 +80,7 @@ function App() {
                             <div className={"h-[1px] bg-white w-[2rem]"}></div>
                         </div>
                         <div className={"flex flex-row gap-8 bg-white rounded-2xl px-8"}>
-                            <div className={"flex flex-col gap-12 py-8"}>
+                            <div className={"flex flex-col w-[6rem] gap-12 py-8"}>
                                 <div>
                                     <div
                                         className={"flex justify-center items-center w-[2rem] h-[2rem] rounded-full bg-black"}>
@@ -94,12 +94,14 @@ function App() {
                                 </div>
                             </div>
 
-                            <div className={"flex flex-col py-8"}>
+                            <div className={"flex flex-col w-[15rem] py-8"}>
                                 <span className={"text-xs uppercase font-bold"}>Guy Hawkins</span>
                                 <span className={"text-xs uppercase mb-12"}>CEO & Founder</span>
                                 <h2 className={"text-3xl font-medium uppercase tracking-tighter leading-7"}>Is the
                                     agency model evolving again?</h2>
                             </div>
+
+                            <div className={"flex w-[7rem] h-full bg-gray-600"}></div>
                         </div>
                     </div>
 
