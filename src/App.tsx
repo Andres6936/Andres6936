@@ -4,7 +4,13 @@ function App() {
             <section className={"h-full flex flex-row justify-center items-center gap-8 container mx-auto my-auto"}>
                 <article className={"flex flex-col gap-8"}>
                     <div className={"flex flex-row gap-8"}>
-                        <div className={"flex items-end w-[6rem]"}>
+                        <div className={"flex flex-col items-end w-[6rem]"}>
+                            <div className={"flex flex-row justify-center items-center flex-1"}>
+                                <span className={"text-xs rotate-[270deg] uppercase whitespace-nowrap"}>Latest News & Insight</span>
+                                <span className={"text-xs rotate-[270deg] font-medium whitespace-nowrap"}>AI Adoption lessons</span>
+                                <span className={"text-xs rotate-[270deg] font-medium whitespace-nowrap"}>from real life.</span>
+                            </div>
+
                             <div className={"flex justify-center items-center rounded-full bg-black w-[5rem] h-[5rem]"}>
                                 <span className={"text-white rotate-[270deg] font-bold text-3xl"}>J</span>
                             </div>
@@ -12,7 +18,7 @@ function App() {
 
                         <div className={"flex flex-col gap-8 w-[14rem] bg-white rounded-2xl px-4 pt-4"}>
                             <div className={"flex flex-row gap-4"}>
-                                <h6 className={"text-3xl font-bold"}>
+                                <h6 className={"text-5xl font-bold"}>
                                     50
                                     <span className={"text-lg"}>+</span>
                                 </h6>
@@ -20,13 +26,13 @@ function App() {
                             </div>
 
                             <div className={"flex flex-row items-end gap-4"}>
-                                <div className={"flex flex-1 h-[4rem] bg-neutral-500"}></div>
-
-                                <div className={"flex flex-1 h-[5rem] bg-neutral-500"}></div>
+                                <div className={"flex flex-1 h-[6rem] bg-neutral-500"}></div>
 
                                 <div className={"flex flex-1 h-[7rem] bg-neutral-500"}></div>
 
-                                <div className={"flex flex-1 h-[6rem] bg-neutral-500"}></div>
+                                <div className={"flex flex-1 h-[9rem] bg-neutral-500"}></div>
+
+                                <div className={"flex flex-1 h-[8rem] bg-neutral-500"}></div>
                             </div>
                         </div>
                     </div>
