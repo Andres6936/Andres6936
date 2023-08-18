@@ -35,8 +35,18 @@ function App() {
                 </article>
 
                 <article className={"flex flex-col gap-8"}>
-                    <div className={"flex flex-grow bg-white"}>
-                        02
+                    <div className={"flex flex-col flex-grow"}>
+                        <div className={"flex flex-col bg-black rounded-2xl"}>
+
+                        </div>
+                        <div className={"flex flex-row bg-white rounded-2xl px-4"}>
+                            <div className={"flex flex-col py-4"}>
+                                <span className={"text-xs uppercase font-bold"}>Guy Hawkins</span>
+                                <span className={"text-xs uppercase mb-12"}>CEO & Founder</span>
+                                <h2 className={"text-3xl font-medium uppercase tracking-tighter leading-7"}>Is the
+                                    agency model evolving again?</h2>
+                            </div>
+                        </div>
                     </div>
 
                     <div className={"flex flex-row gap-8"}>
