@@ -19,7 +19,7 @@ function App() {
                             </div>
                         </div>
 
-                        <div className={"flex flex-col gap-8 w-[14rem] bg-white rounded-2xl px-4 pt-4"}>
+                        <div className={"flex flex-col gap-8 w-[14rem] bg-white rounded-2xl px-5 pt-5"}>
                             <div className={"flex flex-row gap-4"}>
                                 <h6 className={"text-5xl font-bold"}>
                                     50
@@ -29,13 +29,13 @@ function App() {
                             </div>
 
                             <div className={"flex flex-row items-end gap-4"}>
-                                <div className={"flex flex-1 h-[6rem] bg-neutral-500"}></div>
-
-                                <div className={"flex flex-1 h-[7rem] bg-neutral-500"}></div>
+                                <div className={"flex flex-1 h-[8rem] bg-neutral-500"}></div>
 
                                 <div className={"flex flex-1 h-[9rem] bg-neutral-500"}></div>
 
-                                <div className={"flex flex-1 h-[8rem] bg-neutral-500"}></div>
+                                <div className={"flex flex-1 h-[11rem] bg-neutral-500"}></div>
+
+                                <div className={"flex flex-1 h-[10rem] bg-neutral-500"}></div>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ function App() {
                             intelligent data and analytics
                             platform for marketing</p>
 
-                        <div className={"bg-blue-300 w-[19rem] h-[14rem] rounded-2xl"}>
+                        <div className={"bg-blue-300 w-[19rem] h-[12.5rem] rounded-2xl"}>
 
                         </div>
                     </div>
@@ -80,7 +80,7 @@ function App() {
                             <div className={"h-[1px] bg-white w-[2rem]"}></div>
                         </div>
                         <div className={"flex flex-row gap-4 bg-white rounded-2xl px-8"}>
-                            <div className={"flex flex-col w-[6rem] gap-12 py-8"}>
+                            <div className={"flex flex-col w-[6rem] gap-12 py-7"}>
                                 <div>
                                     <div
                                         className={"flex justify-center items-center w-[2rem] h-[2rem] rounded-full bg-black"}>
@@ -94,7 +94,7 @@ function App() {
                                 </div>
                             </div>
 
-                            <div className={"flex flex-col w-[15rem] py-8 mr-8"}>
+                            <div className={"flex flex-col w-[15rem] py-7 mr-8"}>
                                 <span className={"text-xs uppercase font-bold"}>Guy Hawkins</span>
                                 <span className={"text-xs uppercase mb-12"}>CEO & Founder</span>
                                 <h2 className={"text-3xl font-medium uppercase tracking-tighter leading-7"}>Is the
