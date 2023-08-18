@@ -109,20 +109,21 @@ function App() {
                         </div>
                     </div>
 
-                    <div className={"flex flex-row gap-8"}>
-                        <div className={"flex flex-col gap-12 w-[10rem]"}>
+                    <div className={"flex flex-row gap-12"}>
+                        <div className={"flex flex-col gap-12 w-[14rem]"}>
                             <span className={"text-xs uppercase"}>Media Center</span>
 
                             <p className={"text-xs uppercase font-medium tracking-tighter"}>Databest Expands Executive
                                 Team Amidst Rapid Growth</p>
 
-                            <div className={"w-[10rem] h-[7rem] bg-black rounded-2xl"}></div>
+                            <div className={"w-[14rem] h-[7rem] bg-black rounded-2xl"}></div>
 
-                            <div className={"w-[10rem] h-[7rem] bg-white rounded-2xl"}></div>
+                            <div className={"w-[14rem] h-[7rem] bg-white rounded-2xl"}></div>
                         </div>
 
-                        <div className={"flex w-[16rem] bg-white"}>
-                            03
+                        <div className={"flex justify-center items-center rounded-2xl w-[23rem] bg-white"}>
+                            <h1 className={"text-4xl uppercase font-bold text-center tracking-tighter px-[6rem]"}>Your
+                                Best Marketing & Data Analyser</h1>
                         </div>
                     </div>
                 </article>
