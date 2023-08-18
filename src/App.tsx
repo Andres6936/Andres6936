@@ -8,8 +8,24 @@ function App() {
                             01
                         </div>
 
-                        <div className={"flex w-[14rem] bg-white"}>
-                            02
+                        <div className={"flex flex-col gap-8 w-[14rem] bg-white rounded-2xl px-4 pt-4"}>
+                            <div className={"flex flex-row gap-4"}>
+                                <h6 className={"text-3xl font-bold"}>
+                                    50
+                                    <span className={"text-lg"}>+</span>
+                                </h6>
+                                <p>Companies join every month</p>
+                            </div>
+
+                            <div className={"flex flex-row items-end gap-4"}>
+                                <div className={"flex flex-1 h-[4rem] bg-neutral-500"}></div>
+
+                                <div className={"flex flex-1 h-[5rem] bg-neutral-500"}></div>
+
+                                <div className={"flex flex-1 h-[7rem] bg-neutral-500"}></div>
+
+                                <div className={"flex flex-1 h-[6rem] bg-neutral-500"}></div>
+                            </div>
                         </div>
                     </div>
 
