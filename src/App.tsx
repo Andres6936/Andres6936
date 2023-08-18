@@ -79,8 +79,22 @@ function App() {
                             <div className={"h-[1px] bg-white w-[2rem]"}></div>
                             <div className={"h-[1px] bg-white w-[2rem]"}></div>
                         </div>
-                        <div className={"flex flex-row bg-white rounded-2xl px-4"}>
-                            <div className={"flex flex-col py-4"}>
+                        <div className={"flex flex-row gap-8 bg-white rounded-2xl px-8"}>
+                            <div className={"flex flex-col gap-12 py-8"}>
+                                <div>
+                                    <div
+                                        className={"flex justify-center items-center w-[2rem] h-[2rem] rounded-full bg-black"}>
+                                        <span className={"text-white font-bold"}>J</span>
+                                    </div>
+                                </div>
+
+                                <div className={"flex flex-col"}>
+                                    <span className={"text-xs uppercase"}>When</span>
+                                    <span className={"text-xs uppercase font-bold"}>04.07.2023</span>
+                                </div>
+                            </div>
+
+                            <div className={"flex flex-col py-8"}>
                                 <span className={"text-xs uppercase font-bold"}>Guy Hawkins</span>
                                 <span className={"text-xs uppercase mb-12"}>CEO & Founder</span>
                                 <h2 className={"text-3xl font-medium uppercase tracking-tighter leading-7"}>Is the
