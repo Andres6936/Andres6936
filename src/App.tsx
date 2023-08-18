@@ -40,8 +40,21 @@ function App() {
                         </div>
                     </div>
 
-                    <div className={"flex flex-grow bg-white"}>
-                        01
+                    <div className={"ml-4 p-4 flex flex-col gap-8 w-[21rem] bg-white rounded-2xl"}>
+                        <div className={"flex flex-row"}>
+                            <h3 className={"text-2xl mr-12 font-medium uppercase tracking-tighter leading-6"}>Creation
+                                of a Personal System and Analytics</h3>
+                            <div>
+                                <div
+                                    className={"flex justify-center items-center w-[2rem] h-[2rem] rounded-full bg-black"}>
+                                    <span className={"text-white font-bold"}>J</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p className={"text-xs font-medium"}>Make insight-driven decisions faster and easier with the
+                            intelligent data and analytics
+                            platform for marketing</p>
                     </div>
                 </article>
 
