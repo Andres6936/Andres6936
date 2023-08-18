@@ -52,9 +52,14 @@ function App() {
                             </div>
                         </div>
 
-                        <p className={"text-xs font-medium"}>Make insight-driven decisions faster and easier with the
+                        <p className={"text-xs font-medium pr-[6rem]"}>Make insight-driven decisions faster and easier
+                            with the
                             intelligent data and analytics
                             platform for marketing</p>
+
+                        <div className={"bg-blue-300 w-[19rem] h-[14rem] rounded-2xl"}>
+
+                        </div>
                     </div>
                 </article>
 
