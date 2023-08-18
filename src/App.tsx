@@ -5,10 +5,13 @@ function App() {
                 <article className={"flex flex-col gap-8"}>
                     <div className={"flex flex-row gap-8"}>
                         <div className={"flex flex-col items-end w-[6rem]"}>
-                            <div className={"flex flex-row justify-center items-center flex-1"}>
-                                <span className={"text-xs rotate-[270deg] uppercase whitespace-nowrap"}>Latest News & Insight</span>
-                                <span className={"text-xs rotate-[270deg] font-medium whitespace-nowrap"}>AI Adoption lessons</span>
-                                <span className={"text-xs rotate-[270deg] font-medium whitespace-nowrap"}>from real life.</span>
+                            <div className={"flex flex-row justify-center items-center flex-1 w-[5rem]"}>
+                                <span
+                                    className={"text-xs rotate-[270deg] mx-2 w-[1rem] translate-y-12 uppercase whitespace-nowrap"}>Latest News & Insight</span>
+                                <span
+                                    className={"text-sm rotate-[270deg] w-[1rem] translate-y-12 font-medium whitespace-nowrap"}>AI Adoption lessons</span>
+                                <span
+                                    className={"text-sm rotate-[270deg] w-[1rem] translate-y-12 font-medium whitespace-nowrap"}>from real life.</span>
                             </div>
 
                             <div className={"flex justify-center items-center rounded-full bg-black w-[5rem] h-[5rem]"}>
