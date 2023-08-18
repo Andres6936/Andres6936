@@ -35,9 +35,20 @@ function App() {
                 </article>
 
                 <article className={"flex flex-col gap-8"}>
-                    <div className={"flex flex-col flex-grow"}>
-                        <div className={"flex flex-col bg-black rounded-2xl"}>
-
+                    <div className={"flex flex-row flex-grow"}>
+                        <div className={"flex flex-col gap-1 justify-end items-center bg-black rounded-2xl p-4"}>
+                            <div className={"h-[1px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[3px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[2px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[1px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[1px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[2px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[2px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[1px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[3px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[2px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[1px] bg-white w-[2rem]"}></div>
+                            <div className={"h-[1px] bg-white w-[2rem]"}></div>
                         </div>
                         <div className={"flex flex-row bg-white rounded-2xl px-4"}>
                             <div className={"flex flex-col py-4"}>
