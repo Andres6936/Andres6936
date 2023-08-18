@@ -4,8 +4,10 @@ function App() {
             <section className={"h-full flex flex-row justify-center items-center gap-8 container mx-auto my-auto"}>
                 <article className={"flex flex-col gap-8"}>
                     <div className={"flex flex-row gap-8"}>
-                        <div className={"flex w-[6rem] bg-white"}>
-                            01
+                        <div className={"flex items-end w-[6rem]"}>
+                            <div className={"flex justify-center items-center rounded-full bg-black w-[5rem] h-[5rem]"}>
+                                <span className={"text-white rotate-[270deg] font-bold text-3xl"}>J</span>
+                            </div>
                         </div>
 
                         <div className={"flex flex-col gap-8 w-[14rem] bg-white rounded-2xl px-4 pt-4"}>
