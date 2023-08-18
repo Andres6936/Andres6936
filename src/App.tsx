@@ -79,7 +79,7 @@ function App() {
                             <div className={"h-[1px] bg-white w-[2rem]"}></div>
                             <div className={"h-[1px] bg-white w-[2rem]"}></div>
                         </div>
-                        <div className={"flex flex-row gap-8 bg-white rounded-2xl px-8"}>
+                        <div className={"flex flex-row gap-4 bg-white rounded-2xl px-8"}>
                             <div className={"flex flex-col w-[6rem] gap-12 py-8"}>
                                 <div>
                                     <div
@@ -94,11 +94,15 @@ function App() {
                                 </div>
                             </div>
 
-                            <div className={"flex flex-col w-[15rem] py-8"}>
+                            <div className={"flex flex-col w-[15rem] py-8 mr-8"}>
                                 <span className={"text-xs uppercase font-bold"}>Guy Hawkins</span>
                                 <span className={"text-xs uppercase mb-12"}>CEO & Founder</span>
                                 <h2 className={"text-3xl font-medium uppercase tracking-tighter leading-7"}>Is the
                                     agency model evolving again?</h2>
+
+                                <p className={"mt-8 mr-6 text-xs tracking-tighter"}>Just a few years ago, marketing
+                                    analytics was considered a signal of innovation, and
+                                    an optional addition to the agency's toolbox.</p>
                             </div>
 
                             <div className={"flex w-[7rem] h-full bg-gray-600"}></div>
