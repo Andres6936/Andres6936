@@ -1,6 +1,6 @@
 function App() {
     return (
-        <main className={"w-screen h-screen bg-neutral-600"}>
+        <main className={"w-screen h-screen home-gradient-screen"}>
             <section className={"h-full flex flex-row justify-center items-center gap-8 container mx-auto my-auto"}>
                 <article className={"flex flex-col gap-8"}>
                     <div className={"flex flex-row gap-8"}>
