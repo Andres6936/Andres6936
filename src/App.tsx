@@ -90,8 +90,15 @@ function App() {
                     </div>
 
                     <div className={"flex flex-row gap-8"}>
-                        <div className={"flex w-[10rem] bg-white"}>
-                            02
+                        <div className={"flex flex-col gap-12 w-[10rem]"}>
+                            <span className={"text-xs uppercase"}>Media Center</span>
+
+                            <p className={"text-xs uppercase font-medium tracking-tighter"}>Databest Expands Executive
+                                Team Amidst Rapid Growth</p>
+
+                            <div className={"w-[10rem] h-[7rem] bg-black rounded-2xl"}></div>
+
+                            <div className={"w-[10rem] h-[7rem] bg-white rounded-2xl"}></div>
                         </div>
 
                         <div className={"flex w-[16rem] bg-white"}>
