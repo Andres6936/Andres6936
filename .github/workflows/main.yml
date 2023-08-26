@@ -24,7 +24,7 @@ jobs:
 
       - name: Build
         run: |
-          yarn build --base='/${{ github.event.repository.name }}/'
+          yarn build
       - name: Deploy to GH Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
