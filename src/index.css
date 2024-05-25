@@ -2,18 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.home-gradient-screen {
-        background-image: linear-gradient(
-                220deg,
-                hsl(108deg 3% 68%) 0%,
-                hsl(100deg 3% 66%) 23%,
-                hsl(92deg 3% 65%) 32%,
-                hsl(85deg 3% 64%) 39%,
-                hsl(78deg 3% 63%) 45%,
-                hsl(71deg 2% 62%) 50%,
-                hsl(65deg 2% 60%) 56%,
-                hsl(58deg 2% 59%) 65%,
-                hsl(53deg 2% 58%) 76%,
-                hsl(48deg 2% 57%) 100%
-        );
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+
+* {
+        margin: 0;
+}
+
+body {
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+        display: block;
+        max-width: 100%;
+}
+
+input, button, textarea, select {
+        font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+        overflow-wrap: break-word;
+}
+
+#root, #__next {
+        isolation: isolate;
 }
