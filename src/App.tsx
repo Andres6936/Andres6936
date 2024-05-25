@@ -48,13 +48,54 @@ export default function App() {
                 </div>
             </section>
 
-            <section className="flex flex-row gap-6 items-center justify-center w-3/4 mx-auto my-24">
+            <section className="flex flex-row gap-6 items-center justify-center w-3/4 mx-auto mt-24">
                 <div className="flex flex-[3] bg-white h-96 rounded-2xl">
 
                 </div>
 
                 <div className="flex flex-[2] bg-black h-96 rounded-2xl">
 
+                </div>
+            </section>
+
+            <section className="flex flex-row gap-6 items-center justify-center w-3/4 mx-auto mt-6">
+                <div className="flex flex-[2] bg-white h-96 rounded-2xl">
+
+                </div>
+
+                <div className="flex flex-[3] bg-white h-96 rounded-2xl">
+
+                </div>
+            </section>
+
+            <section className="flex flex-row gap-6 items-center justify-center w-3/4 mx-auto mt-6">
+                <div className="flex flex-[3] bg-white h-96 rounded-2xl">
+
+                </div>
+
+                <div className="flex flex-[2] bg-white h-96 rounded-2xl">
+
+                </div>
+            </section>
+
+            <section className="flex flex-row gap-6 items-center justify-center w-3/4 mx-auto mt-6">
+                <div className="flex flex-[2] bg-white h-96 rounded-2xl">
+
+                </div>
+
+                <div className="flex flex-[3] bg-white h-96 rounded-2xl">
+
+                </div>
+            </section>
+
+            <section className="flex flex-row gap-6 items-center justify-center w-3/4 mx-auto mt-6">
+                <div
+                    className="flex flex-[2] items-center justify-center bg-white p-4 rounded-full border-zinc-300 border">
+                    <p>Contact Me</p>
+                </div>
+
+                <div className="flex flex-[3] items-center justify-center bg-black text-white p-4 rounded-full">
+                    <p>See All - Template</p>
                 </div>
             </section>
         </main>
