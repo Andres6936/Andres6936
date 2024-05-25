@@ -13,6 +13,7 @@ interface DotPatternProps {
     [key: string]: unknown;
 }
 
+// Reference from: https://magicui.design/docs/components/dot-pattern
 export default function DotPattern({
                                        width = 16,
                                        height = 16,
