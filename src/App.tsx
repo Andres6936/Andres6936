@@ -12,7 +12,8 @@ export default function App() {
                 className={"[mask-image:linear-gradient(to_bottom_right,white,#C5C5C5,#C5C5C5)] bg-zinc-100"}
             />
 
-            <section className="flex flex-row justify-between items-center bg-white px-4 py-4 rounded-full z-10">
+            <section
+                className="flex flex-row justify-between items-center bg-white px-4 py-4 rounded-full w-3/4 2xl:w-3/5 z-10 mx-auto">
                 <div className="flex flex-row gap-6 items-center justify-between">
                     <div className="w-12 aspect-square bg-yellow-300 rounded-full">
 
@@ -27,7 +28,7 @@ export default function App() {
                 <button className="bg-yellow-300 py-2 px-5 rounded-full">Pricing ~ it's free</button>
             </section>
 
-            <section className="container text-center my-24">
+            <section className="container text-center my-24 mx-auto">
                 <div className="flex flex-col gap-6 items-center justify-center">
                     <h1 className="text-7xl font-semibold bg-yellow-300 w-fit px-6 py-4 rounded-2xl">Hey, I'm Joan</h1>
                     <h2 className="text-6xl font-semibold">a web developer with</h2>
