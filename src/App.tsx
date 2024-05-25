@@ -1,15 +1,19 @@
 export default function App() {
     return (
         <main className="bg-zinc-100 p-12">
-            <section className="flex flex-row justify-between items-center bg-white px-12 py-6 rounded-full">
-                <div className="flex flex-row gap-4 justify-between">
+            <section className="flex flex-row justify-between items-center bg-white px-4 py-4 rounded-full">
+                <div className="flex flex-row gap-6 items-center justify-between">
+                    <div className="w-12 aspect-square bg-yellow-300 rounded-full">
+
+                    </div>
                     <p>About</p>
                     <p>Works</p>
-                    <p>Twitter</p>
+                    <p className="text-slate-200">|</p>
+                    <p>Github</p>
                     <p>Dribble</p>
                     <p>LinkedIn</p>
                 </div>
-                <p>Pricing ~ it's free</p>
+                <button className="bg-yellow-300 py-2 px-5 rounded-full">Pricing ~ it's free</button>
             </section>
 
             <section className="container text-center my-24">
