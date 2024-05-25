@@ -1,7 +1,18 @@
+import DotPattern from "./DotPattern.tsx";
+
 export default function App() {
     return (
-        <main className="bg-zinc-100 p-12">
-            <section className="flex flex-row justify-between items-center bg-white px-4 py-4 rounded-full">
+        <main className="relative p-12">
+            <DotPattern
+                width={20}
+                height={20}
+                cx={1}
+                cy={1}
+                cr={1}
+                className={"[mask-image:linear-gradient(to_bottom_right,white,#C5C5C5,#C5C5C5)] bg-zinc-100"}
+            />
+
+            <section className="flex flex-row justify-between items-center bg-white px-4 py-4 rounded-full z-10">
                 <div className="flex flex-row gap-6 items-center justify-between">
                     <div className="w-12 aspect-square bg-yellow-300 rounded-full">
 
