@@ -217,9 +217,14 @@ export default function App() {
                     </div>
                 </div>
 
-                <div>
-                    <p className="font-semibold text-zinc-400 mb-1">Portfolio</p>
-                    <p>Atlantis Template</p>
+                <div className="flex flex-row gap-3 items-center">
+                    <div className="w-10 bg-yellow-300 aspect-square rounded-full">
+
+                    </div>
+                    <div>
+                        <p className="font-semibold text-zinc-400 mb-1">Portfolio</p>
+                        <p>Atlantis Template</p>
+                    </div>
                 </div>
             </section>
 
