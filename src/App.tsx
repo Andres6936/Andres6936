@@ -9,7 +9,7 @@ import DesignBy from "./sections/DesignBy.tsx";
 
 export default function App() {
     return (
-        <main className="relative p-4 md:p-12">
+        <main className="relative p-4 lg:p-12">
             <DotPattern
                 width={20}
                 height={20}

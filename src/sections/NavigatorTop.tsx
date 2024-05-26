@@ -1,7 +1,7 @@
 export default function NavigatorTop() {
     return (
         <section
-            className="hidden md:flex flex-row justify-between items-center bg-white px-4 py-4 rounded-full w-3/4 2xl:w-3/5 z-10 mx-auto">
+            className="hidden lg:flex flex-row justify-between items-center bg-white px-4 py-4 rounded-full w-3/4 2xl:w-3/5 z-10 mx-auto">
             <div className="flex flex-row gap-6 items-center justify-between">
                 <div className="w-12 aspect-square bg-yellow-300 rounded-full">
 
