@@ -1,6 +1,6 @@
 export default function WantStart() {
     return (
-        <section className="flex flex-col bg-white rounded-2xl w-5/6 lg:w-3/4 mx-auto mt-24 p-8 py-16">
+        <section className="flex flex-col bg-white rounded-2xl w-5/6 lg:w-3/4 xl:w-3/6 mx-auto mt-24 p-8 py-16">
             <div className="border border-zinc-300 p-2 w-full lg:w-3/6 mx-auto rounded-full">
                 <h1 className="text-4xl lg:text-5xl font-semibold text-center">Want to start</h1>
             </div>

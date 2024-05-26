@@ -19,12 +19,15 @@ export default function App() {
                 className={"[mask-image:linear-gradient(to_bottom_right,white,#C5C5C5,#C5C5C5)] bg-zinc-100"}
             />
 
-            <NavigatorTop/>
-            <Welcome/>
-            <Projects/>
-            <Contact/>
-            <WantStart/>
-            <Footer/>
+            <div className="xl:container mx-auto">
+                <NavigatorTop/>
+                <Welcome/>
+                <Projects/>
+                <Contact/>
+                <WantStart/>
+                <Footer/>
+            </div>
+
             <DesignBy/>
         </main>
     )
