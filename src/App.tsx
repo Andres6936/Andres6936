@@ -219,9 +219,11 @@ export default function App() {
 
                 <div>
                     <p className="font-semibold text-zinc-400 mb-1">Portfolio</p>
-                    <p>Design by Batuhan Kara made by me</p>
+                    <p>Atlantis Template</p>
                 </div>
             </section>
+
+            <p className="text-center my-12 text-zinc-500">Design by Batuhan Kara made by Joan Andrés</p>
         </main>
     )
 }
