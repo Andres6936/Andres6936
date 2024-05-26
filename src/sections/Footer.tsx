@@ -1,13 +1,13 @@
 export default function Footer() {
     return (
         <section
-            className="flex flex-col lg:flex-row gap-4 lg:gap-0 justify-between bg-white rounded-2xl w-5/6 lg:w-3/4 mx-auto mt-24 p-8">
+            className="flex flex-col flex-wrap md:flex-row gap-4 lg:gap-0 justify-between bg-white rounded-2xl w-5/6 lg:w-3/4 mx-auto mt-24 p-8">
             <div>
                 <p className="font-semibold text-zinc-400 mb-1">Work with us</p>
                 <p>andres6936@live.com</p>
             </div>
 
-            <hr className="lg:hidden"/>
+            <hr className="md:hidden"/>
 
             <div>
                 <p className="font-semibold text-zinc-400 mb-1">Follow us</p>
@@ -18,9 +18,10 @@ export default function Footer() {
                 </div>
             </div>
 
-            <hr className="lg:hidden"/>
+            <hr className="md:hidden"/>
 
-            <div className="flex flex-row gap-3 items-center justify-end lg:justify-start">
+            <div
+                className="md:min-w-full lg:min-w-0 flex flex-row gap-3 items-center justify-end md:justify-center lg:justify-start md:border-t lg:border-0 md:pt-3 lg:pt-0">
                 <div className="w-10 bg-yellow-300 aspect-square rounded-full">
 
                 </div>
