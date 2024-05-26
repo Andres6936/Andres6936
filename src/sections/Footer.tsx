@@ -4,7 +4,7 @@ export default function Footer() {
             className="flex flex-col flex-wrap md:flex-row gap-4 lg:gap-0 justify-between bg-white rounded-2xl w-5/6 lg:w-3/4 mx-auto mt-24 p-8">
             <div>
                 <p className="font-semibold text-zinc-400 mb-1">Work with us</p>
-                <p>andres6936@live.com</p>
+                <p className="hover:font-semibold">andres6936@live.com</p>
             </div>
 
             <hr className="md:hidden"/>
@@ -12,9 +12,9 @@ export default function Footer() {
             <div>
                 <p className="font-semibold text-zinc-400 mb-1">Follow us</p>
                 <div className="flex flex-row gap-4">
-                    <p>Github</p>
-                    <p>Dribble</p>
-                    <p>LinkedIn</p>
+                    <p className="hover:font-semibold">Github</p>
+                    <p className="hover:font-semibold">Dribble</p>
+                    <p className="hover:font-semibold">LinkedIn</p>
                 </div>
             </div>
 
@@ -27,7 +27,7 @@ export default function Footer() {
                 </div>
                 <div>
                     <p className="font-semibold text-zinc-400 mb-1">Portfolio</p>
-                    <p>Atlantis Template</p>
+                    <p className="hover:font-semibold">Atlantis Template</p>
                 </div>
             </div>
         </section>

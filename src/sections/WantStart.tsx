@@ -7,7 +7,7 @@ export default function WantStart() {
             <h1 className="text-4xl lg:text-5xl font-semibold text-center w-full lg:w-3/6 mx-auto">a project?</h1>
 
             <button
-                className="flex flex-row gap-8 justify-around items-center bg-yellow-300 rounded-full px-1 py-1 w-fit mx-auto mt-12">
+                className="flex flex-row gap-8 justify-around items-center bg-yellow-300 hover:bg-yellow-400 rounded-full px-1 py-1 w-fit mx-auto mt-12">
                 <p className="px-4 font-semibold">Let's Talk</p>
                 <div
                     className="flex items-center justify-center w-12 aspect-square bg-white rounded-full shadow-lg">
