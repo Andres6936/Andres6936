@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <section className="flex flex-row justify-between bg-white rounded-2xl w-3/4 mx-auto mt-24 p-8">
+        <section className="flex flex-col md:flex-row justify-between bg-white rounded-2xl w-3/4 mx-auto mt-24 p-8">
             <div>
                 <p className="font-semibold text-zinc-400 mb-1">Work with us</p>
                 <p>andres6936@live.com</p>
