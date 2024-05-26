@@ -13,7 +13,7 @@ export default function NavigatorTop() {
                 <p>Dribble</p>
                 <p>LinkedIn</p>
             </div>
-            <button className="bg-yellow-300 py-2 px-5 rounded-full">Pricing ~ it's free</button>
+            <button className="bg-yellow-300 py-2 px-5 rounded-full font-semibold">Pricing ~ it's free</button>
         </section>
     )
 }
