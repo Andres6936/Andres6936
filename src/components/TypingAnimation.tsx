@@ -32,7 +32,7 @@ export default function TypingAnimation({
 
     return (
         <h1
-            className={'text-center font-display text-4xl bg-yellow-300 px-6 py-4 rounded-2xl font-semibold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem] ' + className}>
+            className={'select-none text-center font-display text-4xl bg-yellow-300 px-6 py-4 rounded-2xl font-semibold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem] ' + className}>
             {displayedText ? displayedText : text}
         </h1>
     );

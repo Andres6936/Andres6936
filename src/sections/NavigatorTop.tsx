@@ -6,14 +6,16 @@ export default function NavigatorTop() {
                 <div className="w-12 aspect-square bg-yellow-300 rounded-full">
 
                 </div>
-                <p>About</p>
-                <p>Works</p>
+                <p className="hover:font-semibold">About</p>
+                <p className="hover:font-semibold">Works</p>
                 <p className="text-slate-200">|</p>
-                <p>Github</p>
-                <p>Dribble</p>
-                <p>LinkedIn</p>
+                <p className="hover:font-semibold">Github</p>
+                <p className="hover:font-semibold">Dribble</p>
+                <p className="hover:font-semibold">LinkedIn</p>
             </div>
-            <button className="bg-yellow-300 py-2 px-5 rounded-full font-semibold">Pricing ~ it's free</button>
+            <button className="bg-yellow-300 py-2 px-5 rounded-full font-semibold hover:bg-yellow-400">Pricing ~ it's
+                free
+            </button>
         </section>
     )
 }
