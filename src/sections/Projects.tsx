@@ -12,11 +12,12 @@ export default function Projects() {
             </section>
 
             <section className="flex flex-col md:flex-row gap-6 items-center justify-center md:w-3/4 mx-auto mt-6">
-                <div className="flex w-5/6 md:flex-[2] bg-white h-96 rounded-2xl">
+                <div className="flex w-5/6 md:flex-[2] order-last md:order-none bg-white h-96 rounded-2xl">
 
                 </div>
 
-                <div className="flex flex-col w-5/6 md:flex-[3] bg-white h-96 rounded-2xl px-4 pt-8 pb-4">
+                <div
+                    className="flex flex-col w-5/6 md:flex-[3] order-1 md:order-none bg-white h-96 rounded-2xl px-4 pt-8 pb-4">
                     <div className="flex flex-row justify-between items-center px-6">
                         <div className="flex flex-col flex-1">
                             <h1 className="text-3xl">Lemon Template</h1>
@@ -37,7 +38,8 @@ export default function Projects() {
             </section>
 
             <section className="flex flex-col md:flex-row gap-6 items-center justify-center md:w-3/4 mx-auto mt-6">
-                <div className="flex flex-col w-5/6 md:flex-[3] bg-white h-96 rounded-2xl px-4 pt-8 pb-4">
+                <div
+                    className="flex flex-col w-5/6 md:flex-[3] order-1 md:order-none bg-white h-96 rounded-2xl px-4 pt-8 pb-4">
                     <div className="flex flex-row justify-between items-center px-6">
                         <div className="flex flex-col flex-1">
                             <h1 className="text-3xl">Sanctuary Template</h1>
@@ -56,17 +58,18 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div className="flex w-5/6 md:flex-[2] bg-white h-96 rounded-2xl">
+                <div className="flex w-5/6 md:flex-[2] order-last md:order-none bg-white h-96 rounded-2xl">
 
                 </div>
             </section>
 
             <section className="flex flex-col md:flex-row gap-6 items-center justify-center md:w-3/4 mx-auto mt-6">
-                <div className="flex w-5/6 md:flex-[2] bg-white h-96 rounded-2xl">
+                <div className="flex w-5/6 md:flex-[2] order-last md:order-none bg-white h-96 rounded-2xl">
 
                 </div>
 
-                <div className="flex flex-col w-5/6 md:flex-[3] bg-white h-96 rounded-2xl px-4 pt-8 pb-4">
+                <div
+                    className="flex flex-col w-5/6 md:flex-[3] order-1 md:order-none bg-white h-96 rounded-2xl px-4 pt-8 pb-4">
                     <div className="flex flex-row justify-between items-center px-6">
                         <div className="flex flex-col flex-1">
                             <h1 className="text-3xl">Quillow Template</h1>
