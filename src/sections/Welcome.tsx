@@ -1,10 +1,12 @@
+import TypingAnimation from "../components/TypingAnimation.tsx";
+
 export default function Welcome() {
     return (
         <>
             <section className="container text-center my-24 mx-auto">
                 <div className="flex flex-col gap-6 items-center justify-center">
-                    <h1 className="text-7xl font-semibold bg-yellow-300 w-fit px-6 py-4 rounded-2xl">Hey, I'm Joan</h1>
-                    <h2 className="text-6xl font-semibold">a web developer with</h2>
+                    <TypingAnimation text={"Hey, I'm Joan"}/>
+                    <h2 className="font-display text-3xl md:text-6xl font-semibold">a web developer with</h2>
                     <p className="text-lg w-3/4 mt-8">
                         "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
                         consectetur, adipisci velit..."
