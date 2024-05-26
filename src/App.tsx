@@ -201,6 +201,27 @@ export default function App() {
                     </div>
                 </button>
             </section>
+
+            <section className="flex flex-row justify-between bg-white rounded-2xl w-3/4 mx-auto mt-24 p-8">
+                <div>
+                    <p className="font-semibold text-zinc-400 mb-1">Work with us</p>
+                    <p>andres6936@live.com</p>
+                </div>
+
+                <div>
+                    <p className="font-semibold text-zinc-400 mb-1">Follow us</p>
+                    <div className="flex flex-row gap-4">
+                        <p>Github</p>
+                        <p>Dribble</p>
+                        <p>LinkedIn</p>
+                    </div>
+                </div>
+
+                <div>
+                    <p className="font-semibold text-zinc-400 mb-1">Portfolio</p>
+                    <p>Design by Batuhan Kara made by me</p>
+                </div>
+            </section>
         </main>
     )
 }
