@@ -6,6 +6,7 @@ interface TypingAnimationProps {
     className?: string;
 }
 
+// Reference from: https://magicui.design/docs/components/typing-animation
 export default function TypingAnimation({
                                             text,
                                             duration = 200,
