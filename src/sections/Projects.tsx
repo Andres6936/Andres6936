@@ -95,15 +95,15 @@ export default function Projects() {
 
             <section
                 className="flex flex-col md:flex-row gap-6 items-center justify-center w-5/6 lg:w-3/4 mx-auto mt-6">
-                <div
-                    className="flex w-full lg:w-auto flex-[3] items-center justify-center bg-black text-white p-4 rounded-full">
-                    <p>See All - Template</p>
-                </div>
+                <button
+                    className="flex w-full lg:w-auto flex-[3] items-center justify-center bg-black hover:bg-zinc-800 text-white p-4 rounded-full">
+                    See All - Template
+                </button>
 
-                <div
-                    className="flex w-full lg:w-auto flex-[2] items-center justify-center bg-white p-4 rounded-full border-zinc-300 border">
-                    <p>Contact Me</p>
-                </div>
+                <button
+                    className="flex w-full lg:w-auto flex-[2] items-center justify-center bg-white hover:bg-yellow-50 p-4 rounded-full border-zinc-300 border">
+                    Contact Me
+                </button>
             </section>
         </>
     )

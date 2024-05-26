@@ -20,7 +20,7 @@ export default function Contact() {
                 </div>
             </div>
 
-            <button className="text-white bg-black rounded-full px-8 py-4 w-fit mx-auto mt-8">
+            <button className="text-white bg-black hover:bg-zinc-800 rounded-full px-8 py-4 w-fit mx-auto mt-8">
                 Contact Me - it's free
             </button>
         </section>
