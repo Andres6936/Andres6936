@@ -15,7 +15,7 @@ export default function Welcome() {
             </section>
 
             <section
-                className="flex flex-col lg:flex-row gap-6 items-center justify-center text-center bg-white rounded-2xl w-5/6 lg:w-fit mx-auto px-12 py-6">
+                className="flex flex-col md:flex-row gap-6 items-center justify-center text-center bg-white rounded-2xl w-5/6 lg:w-fit mx-auto px-12 py-6">
                 <div>
                     <p className="text-3xl font-semibold">%70</p>
                     <p>Job achievements</p>
