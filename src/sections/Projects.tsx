@@ -1,3 +1,5 @@
+import ContainerProject from "../components/ContainerProject.tsx";
+
 export default function Projects() {
     return (
         <>
@@ -12,8 +14,7 @@ export default function Projects() {
                 </div>
             </section>
 
-            <section
-                className="flex flex-col md:flex-row gap-6 items-center justify-center md:w-5/6 lg:w-3/4 mx-auto mt-6">
+            <ContainerProject>
                 <div
                     className="flex flex-col overflow-hidden w-5/6 p-3 md:flex-[2] order-last md:order-none bg-white h-[36rem] 2xl:h-[48rem] rounded-2xl">
                     <div className="flex flex-col flex-1 bg-zinc-100 rounded-2xl">
@@ -45,10 +46,9 @@ export default function Projects() {
 
                     </div>
                 </div>
-            </section>
+            </ContainerProject>
 
-            <section
-                className="flex flex-col md:flex-row gap-6 items-center justify-center md:w-5/6 lg:w-3/4 mx-auto mt-6">
+            <ContainerProject>
                 <div
                     className="flex flex-col w-5/6 md:flex-[3] order-1 md:order-none bg-white h-96 rounded-2xl px-4 pt-8 pb-4">
                     <div className="flex flex-row justify-between items-center px-6">
@@ -72,10 +72,9 @@ export default function Projects() {
                 <div className="flex w-5/6 md:flex-[2] order-last md:order-none bg-white h-96 rounded-2xl">
 
                 </div>
-            </section>
+            </ContainerProject>
 
-            <section
-                className="flex flex-col md:flex-row gap-6 items-center justify-center md:w-5/6 lg:w-3/4 mx-auto mt-6">
+            <ContainerProject>
                 <div className="flex w-5/6 md:flex-[2] order-last md:order-none bg-white h-96 rounded-2xl">
 
                 </div>
@@ -99,7 +98,7 @@ export default function Projects() {
 
                     </div>
                 </div>
-            </section>
+            </ContainerProject>
 
             <section
                 className="flex flex-col md:flex-row gap-6 items-center justify-center w-5/6 lg:w-3/4 mx-auto mt-6">
