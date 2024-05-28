@@ -21,8 +21,8 @@ export default function Projects() {
                     <div className="flex flex-shrink-0 min-h-28 h-28">
 
                     </div>
-                    <div className="flex flex-1 bg-zinc-100 rounded-2xl overflow-hidden">
-                        <div className="flex w-8/12 mx-auto my-auto bg-zinc-100 py-5">
+                    <div className="flex flex-1 bg-yellow-50 rounded-2xl overflow-hidden">
+                        <div className="flex w-8/12 mx-auto my-auto py-5">
                             <img className="rounded-2xl" src="/img/Respikar-Index.jpeg" alt="Image"/>
                         </div>
                     </div>
@@ -72,8 +72,8 @@ export default function Projects() {
                     <div className="flex flex-shrink-0 min-h-28 h-28">
 
                     </div>
-                    <div className="flex flex-1 bg-zinc-100 rounded-2xl overflow-hidden">
-                        <div className="flex w-8/12 mx-auto my-auto bg-zinc-100 py-5">
+                    <div className="flex flex-1 bg-blue-50 rounded-2xl overflow-hidden">
+                        <div className="flex w-8/12 mx-auto my-auto py-5">
                             <img className="rounded-2xl" src="/img/Respikar-Home.jpeg" alt="Image"/>
                         </div>
                     </div>
@@ -85,9 +85,9 @@ export default function Projects() {
                     <div className="flex flex-shrink-0 min-h-28 h-28">
 
                     </div>
-                    <div className="flex flex-1 bg-zinc-100 rounded-2xl overflow-hidden">
+                    <div className="flex flex-1 bg-yellow-50 rounded-2xl overflow-hidden">
                         <div className="flex w-8/12 mx-auto my-auto py-5">
-                            <img className="rounded-2xl" src="/img/Home.jpeg" alt="Image"/>
+                            <img className="rounded-2xl" src="/img/User.jpeg" alt="Image"/>
                         </div>
                     </div>
                 </ContainerProjectMobil>
