@@ -1,4 +1,4 @@
-import DotPattern from "./DotPattern.tsx";
+import DotPattern from "./components/DotPattern.tsx";
 import NavigatorTop from "./sections/NavigatorTop.tsx";
 import Welcome from "./sections/Welcome.tsx";
 import Projects from "./sections/Projects.tsx";
