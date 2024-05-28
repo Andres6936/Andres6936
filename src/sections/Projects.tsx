@@ -1,4 +1,6 @@
 import ContainerProject from "../components/ContainerProject.tsx";
+import ContainerProjectMobil from "../components/ContainerProjectMobil.tsx";
+import ContainerProjectWeb from "../components/ContainerProjectWeb.tsx";
 
 export default function Projects() {
     return (
@@ -15,8 +17,7 @@ export default function Projects() {
             </section>
 
             <ContainerProject>
-                <div
-                    className="flex flex-col w-5/6 p-3 md:flex-[2] order-last md:order-none bg-white h-[38rem] xl:h-[40rem] 2xl:h-[50rem] rounded-2xl">
+                <ContainerProjectMobil>
                     <div className="flex flex-shrink-0 min-h-28 h-28">
 
                     </div>
@@ -25,10 +26,9 @@ export default function Projects() {
                             <img className="rounded-2xl" src="/img/Respikar-Index.jpeg" alt="Image"/>
                         </div>
                     </div>
-                </div>
+                </ContainerProjectMobil>
 
-                <div
-                    className="flex flex-col w-5/6 md:flex-[3] order-1 md:order-none bg-white h-[38rem] xl:h-[40rem] 2xl:h-[50rem] rounded-2xl px-4 pt-8 pb-4">
+                <ContainerProjectWeb>
                     <div className="flex flex-row justify-between items-center px-6">
                         <div className="flex flex-col flex-1">
                             <h1 className="text-3xl">Lemon Template</h1>
@@ -45,12 +45,11 @@ export default function Projects() {
                     <div className="flex flex-1 bg-zinc-100 mt-4 rounded-2xl">
 
                     </div>
-                </div>
+                </ContainerProjectWeb>
             </ContainerProject>
 
             <ContainerProject>
-                <div
-                    className="flex flex-col w-5/6 md:flex-[3] order-1 md:order-none bg-white h-96 rounded-2xl px-4 pt-8 pb-4">
+                <ContainerProjectWeb>
                     <div className="flex flex-row justify-between items-center px-6">
                         <div className="flex flex-col flex-1">
                             <h1 className="text-3xl">Sanctuary Template</h1>
@@ -67,20 +66,33 @@ export default function Projects() {
                     <div className="flex flex-1 bg-zinc-100 mt-4 rounded-2xl">
 
                     </div>
-                </div>
+                </ContainerProjectWeb>
 
-                <div className="flex w-5/6 md:flex-[2] order-last md:order-none bg-white h-96 rounded-2xl">
+                <ContainerProjectMobil>
+                    <div className="flex flex-shrink-0 min-h-28 h-28">
 
-                </div>
+                    </div>
+                    <div className="flex flex-1 bg-zinc-100 rounded-2xl overflow-hidden">
+                        <div className="flex w-8/12 mx-auto my-auto bg-zinc-100 py-5">
+                            <img className="rounded-2xl" src="/img/Respikar-Home.jpeg" alt="Image"/>
+                        </div>
+                    </div>
+                </ContainerProjectMobil>
             </ContainerProject>
 
             <ContainerProject>
-                <div className="flex w-5/6 md:flex-[2] order-last md:order-none bg-white h-96 rounded-2xl">
+                <ContainerProjectMobil>
+                    <div className="flex flex-shrink-0 min-h-28 h-28">
 
-                </div>
+                    </div>
+                    <div className="flex flex-1 bg-zinc-100 rounded-2xl overflow-hidden">
+                        <div className="flex w-8/12 mx-auto my-auto py-5">
+                            <img className="rounded-2xl" src="/img/Home.jpeg" alt="Image"/>
+                        </div>
+                    </div>
+                </ContainerProjectMobil>
 
-                <div
-                    className="flex flex-col w-5/6 md:flex-[3] order-1 md:order-none bg-white h-96 rounded-2xl px-4 pt-8 pb-4">
+                <ContainerProjectWeb>
                     <div className="flex flex-row justify-between items-center px-6">
                         <div className="flex flex-col flex-1">
                             <h1 className="text-3xl">Quillow Template</h1>
@@ -97,7 +109,7 @@ export default function Projects() {
                     <div className="flex flex-1 bg-zinc-100 mt-4 rounded-2xl">
 
                     </div>
-                </div>
+                </ContainerProjectWeb>
             </ContainerProject>
 
             <section
