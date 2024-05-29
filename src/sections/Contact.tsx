@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <section className="flex flex-col bg-white rounded-2xl w-5/6 lg:w-3/4 xl:w-3/6 mx-auto mt-24 p-8">
+        <section className="flex flex-col bg-white rounded-2xl w-5/6 lg:w-3/4 xl:w-8/12 mx-auto mt-24 p-8">
             <h1 className="text-4xl text-center">Frequently Asked Questions</h1>
             <p className="text-center my-6 w-full lg:w-3/4 mx-auto">Our design team helps client achieve their marketing
                 and

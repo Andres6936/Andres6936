@@ -1,4 +1,4 @@
-import DotPattern from "./DotPattern.tsx";
+import DotPattern from "./components/DotPattern.tsx";
 import NavigatorTop from "./sections/NavigatorTop.tsx";
 import Welcome from "./sections/Welcome.tsx";
 import Projects from "./sections/Projects.tsx";
@@ -13,8 +13,6 @@ export default function App() {
             <DotPattern
                 width={20}
                 height={20}
-                cx={1}
-                cy={1}
                 cr={1}
                 className={"[mask-image:linear-gradient(to_bottom_right,white,#C5C5C5,#C5C5C5)] bg-zinc-100"}
             />

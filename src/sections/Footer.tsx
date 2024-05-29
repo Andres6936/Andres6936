@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <section
-            className="flex flex-col flex-wrap md:flex-row gap-4 lg:gap-0 justify-between bg-white rounded-2xl w-5/6 lg:w-3/4 mx-auto mt-24 p-8">
+            className="flex flex-col flex-wrap md:flex-row gap-4 lg:gap-0 justify-between bg-white rounded-2xl w-5/6 lg:w-11/12 mx-auto mt-24 p-8">
             <div>
                 <p className="font-semibold text-zinc-400 mb-1">Work with us</p>
                 <p className="hover:font-semibold">andres6936@live.com</p>
