@@ -42,9 +42,11 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    <div className="flex flex-1 bg-zinc-100 mt-4 rounded-2xl">
-                        <div className="flex mx-auto my-auto px-5">
-                            <img className="rounded-2xl" src="/img/Residuos-Ambientales-720p.jpeg"
+                    <div className="flex flex-1 bg-red-50 mt-4 rounded-2xl">
+                        <div className="flex mx-auto my-auto w-10/12 lg:w-11/12 py-5 px-5">
+                            <img className="hidden lg:flex rounded-2xl" src="/img/Residuos-Ambientales-720p.jpeg"
+                                 alt="Residuos Ambientales"/>
+                            <img className="lg:hidden rounded-2xl" src="/img/Residuos-Ambientales-Mobil.jpeg"
                                  alt="Residuos Ambientales"/>
                         </div>
                     </div>
