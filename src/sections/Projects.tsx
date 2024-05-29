@@ -6,7 +6,7 @@ export default function Projects() {
     return (
         <>
             <section
-                className="flex flex-col md:flex-row gap-6 items-center justify-center md:w-5/6 lg:w-3/4 mx-auto mt-24">
+                className="flex flex-col md:flex-row gap-6 items-center justify-center md:w-5/6 lg:w-11/12 mx-auto mt-24">
                 <div className="flex w-5/6 lg:flex-[3] bg-white h-96 rounded-2xl px-8 py-12">
                     <h1 className="text-3xl">I've been helping</h1>
                 </div>
@@ -18,7 +18,7 @@ export default function Projects() {
 
             <ContainerProject>
                 <ContainerProjectMobil>
-                    <div className="flex flex-shrink-0 min-h-28 h-28">
+                    <div className="flex flex-shrink-0 min-h-24 h-24">
 
                     </div>
                     <div className="flex flex-1 bg-yellow-50 rounded-2xl overflow-hidden">
@@ -43,7 +43,10 @@ export default function Projects() {
                     </div>
 
                     <div className="flex flex-1 bg-zinc-100 mt-4 rounded-2xl">
-
+                        <div className="flex mx-auto my-auto px-5">
+                            <img className="rounded-2xl" src="/img/Residuos-Ambientales-720p.jpeg"
+                                 alt="Residuos Ambientales"/>
+                        </div>
                     </div>
                 </ContainerProjectWeb>
             </ContainerProject>
@@ -69,7 +72,7 @@ export default function Projects() {
                 </ContainerProjectWeb>
 
                 <ContainerProjectMobil>
-                    <div className="flex flex-shrink-0 min-h-28 h-28">
+                    <div className="flex flex-shrink-0 min-h-24 h-24">
 
                     </div>
                     <div className="flex flex-1 bg-blue-50 rounded-2xl overflow-hidden">
@@ -82,7 +85,7 @@ export default function Projects() {
 
             <ContainerProject>
                 <ContainerProjectMobil>
-                    <div className="flex flex-shrink-0 min-h-28 h-28">
+                    <div className="flex flex-shrink-0 min-h-24 h-24">
 
                     </div>
                     <div className="flex flex-1 bg-yellow-50 rounded-2xl overflow-hidden">
@@ -113,7 +116,7 @@ export default function Projects() {
             </ContainerProject>
 
             <section
-                className="flex flex-col md:flex-row gap-6 items-center justify-center w-5/6 lg:w-3/4 mx-auto mt-6">
+                className="flex flex-col md:flex-row gap-6 items-center justify-center w-5/6 lg:w-11/12 mx-auto mt-6">
                 <button
                     className="flex w-full lg:w-auto flex-[3] items-center justify-center bg-black hover:bg-zinc-800 text-white p-4 rounded-full">
                     See All - Template
