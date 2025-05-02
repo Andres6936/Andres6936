@@ -1,20 +1,19 @@
 export function Footer() {
     return (
         <footer className="primary-footer">
-            <p>
-                También puedes encontrarme en otras partes de la web</p>
+            <p>También puedes encontrarme en otras partes de la web</p>
             <ul role="list" className="social-list">
                 <li>
-                    <a href="https://youtube.com/kevinpowell">YouTube</a>
+                    <a href="https://www.youtube.com/@andres6936X">YouTube</a>
                 </li>
                 <li>
-                    <a href="https://discord.gg/9Rc6WNhNGJ">Discord</a>
+                    <a href="https://discord.gg/">Discord</a>
                 </li>
                 <li>
-                    <a href="https://github.com/kevin-powell">GitHub</a>
+                    <a href="https://github.com/Andres6936">GitHub</a>
                 </li>
                 <li>
-                    <a href="https://github.com/kevin-powell">LinkedIn</a>
+                    <a href="https://app.clickup.com/9011776445/chat/r/8cj9jxx-151">ClickUp</a>
                 </li>
             </ul>
             <p>© 2025 Embrace the Cascade</p>
