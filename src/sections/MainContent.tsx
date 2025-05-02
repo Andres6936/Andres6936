@@ -34,17 +34,19 @@ export function MainContent() {
             <section aria-labelledby="youtube-title" className="home-section youtube">
                 <div className="container flow">
                     <header>
-                        <h2 id="youtube-title" className="section__title">youtube</h2>
-                        <p className="section__subtitle">recomendaciones</p>
+                        <h2 id="youtube-title" className="section__title">interés</h2>
+                        <p className="section__subtitle">objetivos & dedicación</p>
                     </header>
                     <p>
-                        <strong>Consejos, trucos y tutoriales semanales sobre diseño y desarrollo web
-                            front-end.</strong> Con un enfoque en HTML y CSS, junto con un toque de JS, mis videos se
-                        centran en la comprensión de <strong>conceptos fundamentales</strong>, otros exploran <strong>
-                        propiedades de CSS poco conocidas</strong> o que a menudo se usan incorrectamente, y también hay
-                        series largas que exploran cómo tomar todo y <strong>construir páginas reales</strong>.
+                        Mi interés se centra en la <strong>automatización de procesos</strong> como una herramienta
+                        clave para la mejora continua. Valoro enormemente el <strong>desarrollo colaborativo</strong>,
+                        reconociendo su potencial para generar soluciones robustas y bien fundamentadas.
                     </p>
-                    <a href="https://youtube.com/kevinpowell" className="button">ver en ytb</a>
+                    <p>
+                        Además, <strong>me dedico a analizar y resolver problemas de negocio</strong>, aportando una
+                        perspectiva lógica y creativa para alcanzar resultados tangibles.
+                    </p>
+                    <a href="https://youtube.com/kevinpowell" className="button">ver más</a>
                 </div>
 
             </section>
@@ -64,7 +66,7 @@ export function MainContent() {
                         Descubre las áreas en las que me he especializado y cómo mi formación ha moldeado mi enfoque y
                         habilidades.
                     </p>
-                    <a href="/articles" className="button">leer ahora</a>
+                    <a href="/articles" className="button">¿quién soy?</a>
                 </div>
             </section>
 
