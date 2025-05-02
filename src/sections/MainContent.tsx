@@ -5,7 +5,7 @@ export function MainContent() {
             <div className="container">
                 <section aria-labelledby="hero-title" className="hero">
                     <h1 id="hero-title" className="hero__title">
-                        Hi, I'm Kevin. I teach people how to make the web and how to make it look good while they're at
+                        Hi, I'm Joan. I teach people how to make the web and how to make it look good while they're at
                         it.
                     </h1>
                     <div className="hero__paragraph flow">
@@ -24,10 +24,10 @@ export function MainContent() {
                     </div>
 
                     <picture>
-                        <source type="image/avif" srcSet="/img/f21b00ed-300.avif 300w, /img/f21b00ed-600.avif 600w"/>
-                        <source type="image/webp" srcSet="/img/f21b00ed-300.webp 300w, /img/f21b00ed-600.webp 600w"/>
-                        <source type="image/jpeg" srcSet="/img/f21b00ed-300.jpeg 300w, /img/f21b00ed-600.jpeg 600w"/>
-                        <img src="/img/f21b00ed-300.jpeg" width="300" height="300" alt="Kevin smiling" loading="lazy"
+                        <source type="image/avif" srcSet="/img/x400.avif 300w, /img/x800.avif 600w"/>
+                        <source type="image/webp" srcSet="/img/x400.webp 300w, /img/x800.webp 600w"/>
+                        <source type="image/jpg" srcSet="/img/x400.jpg 300w, /img/x800.jpg 600w"/>
+                        <img src="/img/x400.jpg" width="400" height="400" alt="Kevin smiling" loading="lazy"
                              decoding="async"/></picture>
                 </section>
             </div>
