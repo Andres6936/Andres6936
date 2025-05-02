@@ -38,14 +38,11 @@ export function MainContent() {
                         <p className="section__subtitle">recomendaciones</p>
                     </header>
                     <p>
-                        <strong>Weekly front-end web development &amp; design tips, tricks, and tutorials</strong>. With
-                        a focus
-                        on HTML &amp; CSS, along with a splash of JS, my videos focus on understanding
-                        <strong>fundamental concepts</strong>, others explore
-                        <strong>little known or often misused CSS properties</strong>, and there are long series that
-                        explore
-                        taking everything and
-                        <strong>building out actual pages</strong>.
+                        <strong>Consejos, trucos y tutoriales semanales sobre diseño y desarrollo web
+                            front-end.</strong> Con un enfoque en HTML y CSS, junto con un toque de JS, mis videos se
+                        centran en la comprensión de <strong>conceptos fundamentales</strong>, otros exploran <strong>
+                        propiedades de CSS poco conocidas</strong> o que a menudo se usan incorrectamente, y también hay
+                        series largas que exploran cómo tomar todo y <strong>construir páginas reales</strong>.
                     </p>
                     <a href="https://youtube.com/kevinpowell" className="button">ver en ytb</a>
                 </div>
@@ -55,27 +52,26 @@ export function MainContent() {
             <section aria-labelledby="article-title" className="home-section article">
                 <div className="container flow">
                     <header>
-                        <h2 id="article-title" className="section__title">articles</h2>
-                        <p className="section__subtitle">quick hit tips &amp; tricks</p>
+                        <h2 id="article-title" className="section__title">sobre mi</h2>
+                        <p className="section__subtitle">hitos, carrera & estudios</p>
                     </header>
                     <p>
-                        While creating my YouTube videos, I come across a lot of
-                        <strong>fun snippets of information</strong>
-                        and
-                        <strong>little known CSS properties</strong>
-                        that aren't really worth building full videos about.
+                        ¿Te interesa conocer el camino que me ha llevado hasta aquí? Te invito a
+                        explorar los <strong>hitos clave de mi carrera</strong>, desde <strong>mis estudios </strong>
+                        iniciales hasta mi experiencia profesional actual.
                     </p>
                     <p>
-                        I share these little bits of information — plus the occasional deep dive — through my articles.
+                        Descubre las áreas en las que me he especializado y cómo mi formación ha moldeado mi enfoque y
+                        habilidades.
                     </p>
-                    <a href="/articles" className="button">let's get reading</a>
+                    <a href="/articles" className="button">leer ahora</a>
                 </div>
             </section>
 
             <section aria-labelledby="courses-title" className="home-section course">
                 <div className="container flow">
                     <header>
-                        <h2 id="courses-title" className="section__title text-neutral-100">courses</h2>
+                        <h2 id="courses-title" className="section__title text-neutral-100">proyectos</h2>
                         <p className="section__subtitle text-neutral-100">step up your front-end game</p>
                     </header>
                     <p>
@@ -102,7 +98,7 @@ export function MainContent() {
             <section aria-labelledby="patreon-title" className="home-section patreon" style={{"--clr": "#e12911"}}>
                 <div className="container flow">
                     <header>
-                        <h2 id="patreon-title" className="section__title">patreon</h2>
+                        <h2 id="patreon-title" className="section__title">contacto</h2>
                         <p className="section__subtitle">help support me</p>
                     </header>
                     <p>Patreon is a nice, simple way to support creators who provide you with value. Thanks to my
