@@ -34,7 +34,7 @@ export function MainContent() {
             <section aria-labelledby="youtube-title" className="home-section youtube">
                 <div className="container flow">
                     <header>
-                        <h2 id="youtube-title" className="section__title">interés</h2>
+                        <h2 id="youtube-title" className="section__title">Interés</h2>
                         <p className="section__subtitle">objetivos & dedicación</p>
                     </header>
                     <p>
@@ -54,7 +54,7 @@ export function MainContent() {
             <section aria-labelledby="article-title" className="home-section article">
                 <div className="container flow">
                     <header>
-                        <h2 id="article-title" className="section__title">sobre mi</h2>
+                        <h2 id="article-title" className="section__title">Sobre mi</h2>
                         <p className="section__subtitle">hitos, carrera & estudios</p>
                     </header>
                     <p>
@@ -73,7 +73,7 @@ export function MainContent() {
             <section aria-labelledby="courses-title" className="home-section course">
                 <div className="container flow">
                     <header>
-                        <h2 id="courses-title" className="section__title text-neutral-100">proyectos</h2>
+                        <h2 id="courses-title" className="section__title text-neutral-100">Proyectos</h2>
                         <p className="section__subtitle text-neutral-100">profesionales & personales</p>
                     </header>
                     <p>
@@ -91,7 +91,7 @@ export function MainContent() {
             <section aria-labelledby="patreon-title" className="home-section patreon" style={{"--clr": "#e12911"}}>
                 <div className="container flow">
                     <header>
-                        <h2 id="patreon-title" className="section__title">contacto</h2>
+                        <h2 id="patreon-title" className="section__title">Contacto</h2>
                         <p className="section__subtitle">help support me</p>
                     </header>
                     <p>
