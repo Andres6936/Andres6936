@@ -92,13 +92,18 @@ export function MainContent() {
                         <h2 id="patreon-title" className="section__title">contacto</h2>
                         <p className="section__subtitle">help support me</p>
                     </header>
-                    <p>Patreon is a nice, simple way to support creators who provide you with value. Thanks to my
-                        patrons I've
-                        been able to upgrade my equipment a few times now, and they've enabled me to devote more time to
-                        making
-                        videos.</p>
+                    <p>
+                        <strong>¿Tienes una idea en mente? ¿Un proyecto que quieres hacer realidad?</strong>
+                    </p>
+                    <p>
+                        Ponte en contacto conmigo a través de los siguientes medios. Recuerda: <strong>"Si lo puedes
+                        imaginar lo puedo hacer."</strong>
+                    </p>
+                    <p>
+                        ¡Estoy listo para escuchar tus propuestas!
+                    </p>
 
-                    <a href="https://patreon.com/kevinpowell" className="button">support me on Patreon</a>
+                    <a href="https://patreon.com/kevinpowell" className="button">contáctame</a>
                 </div>
             </section>
         </main>
