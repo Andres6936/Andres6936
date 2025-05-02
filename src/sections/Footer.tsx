@@ -1,35 +1,34 @@
-export default function Footer() {
+export function Footer() {
     return (
-        <section
-            className="flex flex-col flex-wrap md:flex-row gap-4 lg:gap-0 justify-between bg-white rounded-2xl w-5/6 lg:w-11/12 mx-auto mt-24 p-8">
-            <div>
-                <p className="font-semibold text-zinc-400 mb-1">Work with us</p>
-                <p className="hover:font-semibold">andres6936@live.com</p>
-            </div>
-
-            <hr className="md:hidden"/>
-
-            <div>
-                <p className="font-semibold text-zinc-400 mb-1">Follow us</p>
-                <div className="flex flex-row gap-4">
-                    <p className="hover:font-semibold">Github</p>
-                    <p className="hover:font-semibold">Dribble</p>
-                    <p className="hover:font-semibold">LinkedIn</p>
-                </div>
-            </div>
-
-            <hr className="md:hidden"/>
-
-            <div
-                className="md:min-w-full lg:min-w-0 flex flex-row gap-3 items-center justify-end md:justify-center lg:justify-start md:border-t lg:border-0 md:pt-3 lg:pt-0">
-                <div className="w-10 bg-yellow-300 aspect-square rounded-full">
-
-                </div>
-                <div>
-                    <p className="font-semibold text-zinc-400 mb-1">Portfolio</p>
-                    <p className="hover:font-semibold">Atlantis Template</p>
-                </div>
-            </div>
-        </section>
+        <footer className="primary-footer">
+            <p>
+                Find me elsewhere on the web as well:</p>
+            <ul role="list" className="social-list">
+                <li>
+                    <a href="https://youtube.com/kevinpowell">YouTube</a>
+                </li>
+                <li>
+                    <a href="https://twitch.com/kevinpowellcss">Twitch</a>
+                </li>
+                <li>
+                    <a href="https://bsky.app/profile/kevinpowell.co">Bluesky</a>
+                </li>
+                <li>
+                    <a rel="me" href="https://front-end.social/@kevinpowell">Mastodon</a>
+                </li>
+                <li>
+                    <a href="https://codepen.io/kevinpowell/">CodePen</a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/9Rc6WNhNGJ">Discord</a>
+                </li>
+                <li>
+                    <a href="https://github.com/kevin-powell">GitHub</a>
+                </li>
+            </ul>
+            <p>©
+                2025
+                Embrace the Cascade</p>
+        </footer>
     )
 }
