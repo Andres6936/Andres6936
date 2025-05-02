@@ -35,7 +35,7 @@ export function MainContent() {
                 <div className="container flow">
                     <header>
                         <h2 id="youtube-title" className="section__title">youtube</h2>
-                        <p className="section__subtitle">learn for free</p>
+                        <p className="section__subtitle">recomendaciones</p>
                     </header>
                     <p>
                         <strong>Weekly front-end web development &amp; design tips, tricks, and tutorials</strong>. With
@@ -47,7 +47,7 @@ export function MainContent() {
                         taking everything and
                         <strong>building out actual pages</strong>.
                     </p>
-                    <a href="https://youtube.com/kevinpowell" className="button">watch on yt</a>
+                    <a href="https://youtube.com/kevinpowell" className="button">ver en ytb</a>
                 </div>
 
             </section>
