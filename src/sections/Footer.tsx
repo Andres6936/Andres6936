@@ -2,22 +2,10 @@ export function Footer() {
     return (
         <footer className="primary-footer">
             <p>
-                Find me elsewhere on the web as well:</p>
+                También puedes encontrarme en otras partes de la web</p>
             <ul role="list" className="social-list">
                 <li>
                     <a href="https://youtube.com/kevinpowell">YouTube</a>
-                </li>
-                <li>
-                    <a href="https://twitch.com/kevinpowellcss">Twitch</a>
-                </li>
-                <li>
-                    <a href="https://bsky.app/profile/kevinpowell.co">Bluesky</a>
-                </li>
-                <li>
-                    <a rel="me" href="https://front-end.social/@kevinpowell">Mastodon</a>
-                </li>
-                <li>
-                    <a href="https://codepen.io/kevinpowell/">CodePen</a>
                 </li>
                 <li>
                     <a href="https://discord.gg/9Rc6WNhNGJ">Discord</a>
@@ -25,10 +13,11 @@ export function Footer() {
                 <li>
                     <a href="https://github.com/kevin-powell">GitHub</a>
                 </li>
+                <li>
+                    <a href="https://github.com/kevin-powell">LinkedIn</a>
+                </li>
             </ul>
-            <p>©
-                2025
-                Embrace the Cascade</p>
+            <p>© 2025 Embrace the Cascade</p>
         </footer>
     )
 }
