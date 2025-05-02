@@ -5,21 +5,19 @@ export function MainContent() {
             <div className="container">
                 <section aria-labelledby="hero-title" className="hero">
                     <h1 id="hero-title" className="hero__title">
-                        Hi, I'm Joan. I teach people how to make the web and how to make it look good while they're at
-                        it.
+                        Hola, soy Joan. Convierto ideas de negocio en plataformas completas, con presencia en móviles y
+                        web.
                     </h1>
                     <div className="hero__paragraph flow">
                         <p>
-                            I learned to make websites on my own. I know how fun and rewarding it is, but I also know
-                            that it
-                            can be incredibly frustrating.
-                            <strong>I'm here to help make your journey into web development as easy and as fun as
-                                possible</strong>.
+                            Mi pasión es transformar ideas de negocio en realidades digitales completas. Me encargo de
+                            diseñar y desarrollar plataformas integrales que abarcan tanto la experiencia móvil como la
+                            presencia web.
                         </p>
                         <p>
-                            Whether you're trying to learn what you need to tweak your small business' website or you're
-                            looking
-                            to jump start a new career, I'm here to help.
+                            Mi objetivo es ofrecer una <strong>solución unificada que permita a tu negocio
+                            alcanzar a tu audiencia</strong> en todos los dispositivos de manera eficiente y con una
+                            imagen profesional impactante.
                         </p>
                     </div>
 
