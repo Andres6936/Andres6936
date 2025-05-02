@@ -72,26 +72,17 @@ export function MainContent() {
                 <div className="container flow">
                     <header>
                         <h2 id="courses-title" className="section__title text-neutral-100">proyectos</h2>
-                        <p className="section__subtitle text-neutral-100">step up your front-end game</p>
+                        <p className="section__subtitle text-neutral-100">profesionales & personales</p>
                     </header>
                     <p>
-                        <strong>Premium courses to help you step up your front-end game in short order.</strong>
+                        <strong>Descubre la diversidad de mis habilidades e intereses en acción.</strong>
                     </p>
+
                     <p>
-                        While there are a ton of free resources out there, it can be hard to figure out which ones are
-                        good,
-                        which are bad, and in what order to follow them in. Because of that, I’ve decided to start
-                        creating
-                        premium courses to help.
-                        <strong>They are deep dives into specific topics, helping you level up your game in as little
-                            time as
-                            possible</strong>.
+                        Explora una selección de los proyectos en los que he trabajado profesionalmente y aquellos que
+                        desarrollo con pasión en mi tiempo libre.
                     </p>
-                    <p>
-                        I have a number of courses available covering a wide range of CSS goodness. Check out my <a
-                        href="/courses">courses page</a> to see them all.
-                    </p>
-                    <a href="/courses" className="button" data-reverse="true">let's step up my game</a>
+                    <a href="/courses" className="button" data-reverse="true">Explorar mis proyectos</a>
                 </div>
             </section>
 
