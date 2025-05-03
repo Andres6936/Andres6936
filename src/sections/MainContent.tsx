@@ -92,14 +92,14 @@ export function MainContent() {
                 <div className="container flow">
                     <header>
                         <h2 id="patreon-title" className="section__title">Contacto</h2>
-                        <p className="section__subtitle">help support me</p>
+                        <p className="section__subtitle">contáctame</p>
                     </header>
                     <p>
                         <strong>¿Tienes una idea en mente? ¿Un proyecto que quieres hacer realidad?</strong>
                     </p>
                     <p>
                         Ponte en contacto conmigo a través de los siguientes medios. Recuerda: <strong>"Si lo puedes
-                        imaginar lo puedo hacer."</strong>
+                        imaginar lo puedo hacer"</strong>.
                     </p>
                     <p>
                         ¡Estoy listo para escuchar tus propuestas!
