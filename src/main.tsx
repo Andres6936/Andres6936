@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client'
 import {BrowserRouter, Route, Routes} from "react-router";
 
 import './index.css'
-import App from './App.tsx'
-import About from "./About.tsx";
-import Projects from "./Projects.tsx";
-import Contact from "./Contact.tsx";
+import App from './pages/App.tsx'
+import About from "./pages/About.tsx";
+import Projects from "./pages/Projects.tsx";
+import Contact from "./pages/Contact.tsx";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
