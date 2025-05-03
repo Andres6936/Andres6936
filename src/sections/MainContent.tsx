@@ -88,7 +88,7 @@ export function MainContent() {
                 </div>
             </section>
 
-            <section aria-labelledby="patreon-title" className="home-section patreon" style={{"--clr": "#e12911"}}>
+            <section aria-labelledby="patreon-title" className="home-section patreon">
                 <div className="container flow">
                     <header>
                         <h2 id="patreon-title" className="section__title">Contacto</h2>
