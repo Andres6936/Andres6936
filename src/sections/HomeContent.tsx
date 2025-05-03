@@ -1,4 +1,4 @@
-export function MainContent() {
+export function HomeContent() {
     return (
         <main id="main-content">
 

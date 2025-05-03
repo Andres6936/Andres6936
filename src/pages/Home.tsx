@@ -1,14 +1,14 @@
 import {Fragment} from "react";
 
 import {Navigator} from "../layout/Navigator.tsx";
-import {MainContent} from "../sections/MainContent.tsx";
+import {HomeContent} from "../sections/HomeContent.tsx";
 import {Footer} from "../layout/Footer.tsx";
 
-export default function App() {
+export default function Home() {
     return (
         <Fragment>
             <Navigator/>
-            <MainContent/>
+            <HomeContent/>
             <Footer/>
         </Fragment>
     )
