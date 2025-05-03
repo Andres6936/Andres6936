@@ -98,8 +98,8 @@ export function MainContent() {
                         <strong>¿Tienes una idea en mente? ¿Un proyecto que quieres hacer realidad?</strong>
                     </p>
                     <p>
-                        Ponte en contacto conmigo a través de los siguientes medios. Recuerda: <strong>"Si lo puedes
-                        imaginar lo puedo hacer"</strong>.
+                        Ponte en contacto conmigo a través de los siguientes medios. Recuerda: <strong>"Si existe en tu
+                        mente, la posibilidad está en mis manos."</strong>.
                     </p>
                     <p>
                         ¡Estoy listo para escuchar tus propuestas!
