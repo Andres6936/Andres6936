@@ -8,7 +8,7 @@ export function Navigator() {
             <nav className="primary-nav">
                 <ul role="list" className="nav-list">
                     <li className="active">
-                        <a href="/">Inicio</a>
+                        <a href="/public">Inicio</a>
                     </li>
                     <li>
                         <a href="/about/">Acerca</a>

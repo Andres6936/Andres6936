@@ -1,7 +1,7 @@
 import {Fragment} from "react";
 
-import {Navigator} from "./sections/Navigator.tsx";
-import {Footer} from "./sections/Footer.tsx";
+import {Navigator} from "./layout/Navigator.tsx";
+import {Footer} from "./layout/Footer.tsx";
 import {ProjectsContent} from "./sections/ProjectsContent.tsx";
 
 export default function Projects() {
