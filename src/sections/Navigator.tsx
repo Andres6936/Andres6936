@@ -17,9 +17,6 @@ export function Navigator() {
                         <a href="/courses/">Proyectos</a>
                     </li>
                     <li>
-                        <a href="/resources/">Recursos</a>
-                    </li>
-                    <li>
                         <a href="/newsletter/">Contacto</a>
                     </li>
                 </ul>
