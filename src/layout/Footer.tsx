@@ -17,6 +17,9 @@ export function Footer() {
                 </li>
             </ul>
             <p>© 2025 Embrace the Cascade</p>
+
+            <p className="letter-thanks"><i>Gracias a <a href="https://kevinpowell.co">Kevin Powell</a> por la
+                inspiración</i></p>
         </footer>
     )
 }

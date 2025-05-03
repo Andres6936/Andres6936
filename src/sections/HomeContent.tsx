@@ -1,4 +1,4 @@
-export function MainContent() {
+export function HomeContent() {
     return (
         <main id="main-content">
 
@@ -88,18 +88,18 @@ export function MainContent() {
                 </div>
             </section>
 
-            <section aria-labelledby="patreon-title" className="home-section patreon" style={{"--clr": "#e12911"}}>
+            <section aria-labelledby="patreon-title" className="home-section patreon">
                 <div className="container flow">
                     <header>
                         <h2 id="patreon-title" className="section__title">Contacto</h2>
-                        <p className="section__subtitle">help support me</p>
+                        <p className="section__subtitle">contáctame</p>
                     </header>
                     <p>
                         <strong>¿Tienes una idea en mente? ¿Un proyecto que quieres hacer realidad?</strong>
                     </p>
                     <p>
-                        Ponte en contacto conmigo a través de los siguientes medios. Recuerda: <strong>"Si lo puedes
-                        imaginar lo puedo hacer."</strong>
+                        Ponte en contacto conmigo a través de los siguientes medios. Recuerda: <strong>"Si existe en tu
+                        mente, la posibilidad está en mis manos."</strong>.
                     </p>
                     <p>
                         ¡Estoy listo para escuchar tus propuestas!
