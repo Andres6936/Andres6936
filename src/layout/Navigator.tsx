@@ -1,4 +1,5 @@
-import {Link} from "react-router";
+import React from "react";
+import {Link, useLocation} from "react-router";
 
 export function Navigator() {
     return (
@@ -9,20 +10,28 @@ export function Navigator() {
 
             <nav className="primary-nav">
                 <ul role="list" className="nav-list">
-                    <li className="active">
-                        <Link to="/">Inicio</Link>
-                    </li>
-                    <li>
-                        <Link to="/about">Acerca</Link>
-                    </li>
-                    <li>
-                        <Link to="/projects">Proyectos</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contacto</Link>
-                    </li>
+                    <NavItem to="/">Inicio</NavItem>
+                    <NavItem to="/about">Acerca</NavItem>
+                    <NavItem to="/projects">Proyectos</NavItem>
+                    <NavItem to="/contact">Contacto</NavItem>
                 </ul>
             </nav>
         </header>
+    )
+}
+
+type Props = {
+    to: string,
+    children: React.ReactNode,
+}
+
+const NavItem = ({to, children}: Props) => {
+    const location = useLocation();
+    const isActive = location.pathname === to;
+
+    return (
+        <li className={isActive ? "active" : ""}>
+            <Link to={to}>{children}</Link>
+        </li>
     )
 }
