@@ -1,3 +1,5 @@
+import {Link} from "react-router";
+
 export function Navigator() {
     return (
         <header>
@@ -8,16 +10,16 @@ export function Navigator() {
             <nav className="primary-nav">
                 <ul role="list" className="nav-list">
                     <li className="active">
-                        <a href="/public">Inicio</a>
+                        <Link to="/">Inicio</Link>
                     </li>
                     <li>
-                        <a href="/about/">Acerca</a>
+                        <Link to="/about">Acerca</Link>
                     </li>
                     <li>
-                        <a href="/courses/">Proyectos</a>
+                        <Link to="/projects">Proyectos</Link>
                     </li>
                     <li>
-                        <a href="/newsletter/">Contacto</a>
+                        <Link to="/contact">Contacto</Link>
                     </li>
                 </ul>
             </nav>
