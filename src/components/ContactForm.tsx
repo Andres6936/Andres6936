@@ -1,4 +1,10 @@
+import {useState} from "react";
+
 export function ContactForm() {
+    const [email, setEmail] = useState('')
+    const [names, setNames] = useState('')
+    const [message, setMessage] = useState('')
+
     return (
         <form className="seva-form formkit-form cta cta--short cta__form" method="post"
               data-uid="c1cef76ca5" data-format="inline" data-version="5"
@@ -23,21 +29,31 @@ export function ContactForm() {
                      className="seva-fields formkit-fields cta__grid gap:1rem">
                     <div className="formkit-field">
                         <input className="formkit-input" aria-label="Nombre" name="names"
-                               placeholder="Nombre" type="text"/>
+                               placeholder="Nombre" type="text"
+                               value={names}
+                               onChange={(e) => setNames(e.target.value)}
+                        />
                     </div>
                     <div className="formkit-field">
                         <input className="formkit-input" aria-label="Correo" name="emails"
-                               placeholder="Correo" required type="email"/>
+                               placeholder="Correo" required type="email"
+                               value={email}
+                               onChange={(e) => setEmail(e.target.value)}
+                        />
                     </div>
                 </div>
                 <div data-element="fields" data-stacked="true"
                      className="seva-fields formkit-fields cta__grid gap:1rem gap-y:0rem">
                     <div className="formkit-field" style={{gridColumn: "span 2"}}>
-                                <textarea className="formkit-textarea" aria-label="Mensaje" name="message"
-                                          placeholder="Mensaje" rows={3} maxLength={255} required/>
+                        <textarea className="formkit-textarea" aria-label="Mensaje" name="message"
+                                  placeholder="Mensaje" rows={3} maxLength={255} required
+                                  value={message}
+                                  onChange={(e) => setMessage(e.target.value)}
+                        />
                     </div>
-                    <p style={{gridColumn: "span 2"}} className="textarea-indicator-length">Máx. 255
-                        caracteres</p>
+                    <p style={{gridColumn: "span 2"}} className="textarea-indicator-length">
+                        Máx. {255 - message.length} caracteres
+                    </p>
                 </div>
 
                 <button data-element="submit" className="formkit-submit formkit-submit button button__cta">
