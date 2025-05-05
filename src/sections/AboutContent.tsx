@@ -6,55 +6,53 @@ export function AboutContent() {
 
                 <h2>Estudios</h2>
                 <p>
-                    Soy un profesional con sólida formación en ingeniería de sistemas, complementada con una Maestría en
-                    Informática, ambos títulos otorgados por la Universidad Santiago de Cali. Mi enfoque se centra en la
-                    aplicación estratégica de la tecnología para la optimización de procesos y la creación de soluciones
-                    de
-                    software que generen valor tangible para las organizaciones.
+                    Soy un desarrollador independiente con una sólida formación en ingeniería de sistemas y una Maestría
+                    en Informática, ambos títulos otorgados por la Universidad Santiago de Cali. Mi especialización se
+                    centra en la construcción de soluciones web y aplicaciones móviles modernas y escalables, utilizando
+                    tecnologías de vanguardia para ofrecer resultados eficientes y de alto rendimiento.
                 </p>
 
 
                 <h2>Trayectoria</h2>
                 <p>
-                    Mi trayectoria profesional incluye experiencia en el sector financiero, específicamente en Taylor &
-                    Johnson, donde participé en el desarrollo y mantenimiento de sistemas, incluyendo la utilización de
-                    Cobol. Posteriormente, en Globant Enterprise, me desempeñé en la plataforma de cartera,
-                    especializándome
-                    en el área de liquidación de deudas, gestionando la infraestructura para el despliegue de
-                    operaciones y
-                    trabajando con tecnologías como Mainframes de IBM.
+                    Mi experiencia reciente se ha consolidado en el ecosistema de herramientas innovadoras como Supabase
+                    para la gestión de la lógica del servidor y bases de datos, Cloudflare para la optimización y
+                    seguridad de la infraestructura, Inngest para la gestión robusta de flujos de trabajo asíncronos y
+                    Next.js para la creación de aplicaciones web rápidas y dinámicas con React. Adicionalmente, cuento
+                    con una sólida experiencia en el desarrollo de aplicaciones móviles multiplataforma utilizando React
+                    Native con Expo. Estas tecnologías son fundamentales en mi trabajo como desarrollador independiente,
+                    permitiéndome ofrecer soluciones integrales y adaptadas a las necesidades de cada proyecto.
                 </p>
 
                 <p>
-                    Poseo un profundo conocimiento en tecnologías de la nube (Amazon AWS, Microsoft Azure) y en el
-                    desarrollo ágil con prototipado rápido, utilizando herramientas como React JS y bases de datos NoSQL
-                    como DynamoDB y MongoDB, bajo metodologías Scrum y XP.
-                </p>
-
-                <p>
-                    Mi principal objetivo profesional es la resolución de problemas complejos de negocio a través de la
-                    implementación de soluciones tecnológicas eficientes, escalables y de fácil mantenimiento, con un
-                    fuerte
-                    énfasis en la automatización de procesos. Mi formación de posgrado como Magíster en Informática ha
-                    fortalecido mi capacidad analítica y estratégica para abordar desafíos de mayor envergadura y
-                    proponer
-                    soluciones innovadoras con un enfoque académico riguroso.
+                    A lo largo de mi carrera, también he adquirido experiencia en plataformas como AWS y Microsoft
+                    Azure, así como en bases de datos NoSQL como DynamoDB. Sin embargo, mi enfoque actual y mi mayor
+                    pericia residen en la implementación de soluciones utilizando el conjunto de tecnologías previamente
+                    mencionado, el cual me permite ofrecer agilidad, escalabilidad y un rendimiento óptimo tanto en la
+                    web como en dispositivos móviles.
                 </p>
 
                 <p>
                     Mis competencias clave abarcan la optimización del rendimiento, la gestión eficiente de recursos, la
                     ingeniería de software de alta calidad, la automatización de procesos y la aplicación de principios
-                    de
-                    diseño (SOLID, MVC), microservicios y estándares de la industria.
+                    de diseño (SOLID, MVC), microservicios y estándares de la industria.
                 </p>
 
                 <h2>Declaración</h2>
+
                 <p>
-                    Estoy a su disposición para aplicar mi experiencia y mi formación de posgrado en la materialización
-                    de
-                    sus iniciativas tecnológicas, aportando un enfoque profesional y una visión estratégica para
-                    alcanzar
-                    resultados sobresalientes.
+                    Mi objetivo como desarrollador independiente es transformar ideas en realidades digitales
+                    funcionales y atractivas, automatizando procesos y resolviendo desafíos de negocio con un enfoque
+                    moderno y eficiente. Mi formación académica y mi experiencia práctica me permiten abordar proyectos
+                    de manera integral, desde la concepción hasta la implementación y el despliegue en diversas
+                    plataformas.
+                </p>
+
+                <p>
+                    Estoy a su disposición para colaborar en sus proyectos, aportando mi experiencia y mi
+                    especialización en las últimas tecnologías del desarrollo web y móvil. Si busca un desarrollador
+                    independiente con un enfoque en Supabase, Cloudflare, Inngest, Next.js y React Native con Expo,
+                    ¡conversemos sobre cómo puedo ayudarle a materializar su visión!
                 </p>
             </div>
         </main>
