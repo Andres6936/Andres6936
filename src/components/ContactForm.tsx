@@ -1,5 +1,7 @@
 import {useState} from "react";
 
+const MAX_LIMIT_CHARACTERS = 255;
+
 export function ContactForm() {
     const [email, setEmail] = useState('')
     const [names, setNames] = useState('')
@@ -46,13 +48,13 @@ export function ContactForm() {
                      className="seva-fields formkit-fields cta__grid gap:1rem gap-y:0rem">
                     <div className="formkit-field" style={{gridColumn: "span 2"}}>
                         <textarea className="formkit-textarea" aria-label="Mensaje" name="message"
-                                  placeholder="Mensaje" rows={3} maxLength={255} required
+                                  placeholder="Mensaje" rows={3} maxLength={MAX_LIMIT_CHARACTERS} required
                                   value={message}
                                   onChange={(e) => setMessage(e.target.value)}
                         />
                     </div>
                     <p style={{gridColumn: "span 2"}} className="textarea-indicator-length">
-                        Máx. {255 - message.length} caracteres
+                        Máx. {MAX_LIMIT_CHARACTERS - message.length} caracteres
                     </p>
                 </div>
 
