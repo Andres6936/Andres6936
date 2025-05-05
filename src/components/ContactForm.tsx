@@ -3,9 +3,9 @@ import {useState} from "react";
 const MAX_LIMIT_CHARACTERS = 255;
 
 export function ContactForm() {
-    const [email, setEmail] = useState('')
-    const [names, setNames] = useState('')
-    const [message, setMessage] = useState('')
+    const [email, setEmail] = useState<string>('')
+    const [names, setNames] = useState<string>('')
+    const [message, setMessage] = useState<string>('')
 
     return (
         <form className="seva-form formkit-form cta cta--short cta__form" method="post"
