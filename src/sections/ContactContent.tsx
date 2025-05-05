@@ -20,8 +20,7 @@ export function ContactContent() {
                     ¡Escríbeme y comencemos a construir juntos!
                 </p>
 
-                <form action="https://app.convertkit.com/forms/948172/subscriptions"
-                      className="seva-form formkit-form cta cta--short cta__form" method="post" data-sv-form="948172"
+                <form className="seva-form formkit-form cta cta--short cta__form" method="post"
                       data-uid="c1cef76ca5" data-format="inline" data-version="5"
                       data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.kevinpowell.co/newsletter-success/","success_message":"Success! Now check your email to confirm your subscription."},"return_visitor":{"action":"show","custom_content":""},"recaptcha":{"enabled":false}}}'
                       min-width="400 500 600 700 800">
