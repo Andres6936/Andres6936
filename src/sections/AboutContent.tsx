@@ -6,10 +6,11 @@ export function AboutContent() {
 
                 <h2>Estudios</h2>
                 <p>
-                    Soy un desarrollador independiente con una sólida formación en ingeniería de sistemas y una Maestría
-                    en Informática, ambos títulos otorgados por la Universidad Santiago de Cali. Mi especialización se
-                    centra en la construcción de soluciones web y aplicaciones móviles modernas y escalables, utilizando
-                    tecnologías de vanguardia para ofrecer resultados eficientes y de alto rendimiento.
+                    Soy un desarrollador independiente con una sólida formación en <strong>Ingeniería de Sistemas y una
+                    Maestría en Informática</strong>, ambos títulos otorgados por la Universidad Santiago de Cali. Mi
+                    especialización se centra en la construcción de <strong>soluciones web y aplicaciones
+                    móviles</strong> modernas y escalables, utilizando tecnologías de vanguardia para ofrecer resultados
+                    eficientes y de alto rendimiento.
                 </p>
 
 
@@ -26,7 +27,8 @@ export function AboutContent() {
 
                 <p>
                     A lo largo de mi carrera, también he adquirido experiencia en plataformas como AWS y Microsoft
-                    Azure, así como en bases de datos NoSQL como DynamoDB. Sin embargo, mi enfoque actual y mi mayor
+                    Azure, así como en bases de datos NoSQL como DynamoDB y MongoDB. Sin embargo, mi enfoque actual y mi
+                    mayor
                     pericia residen en la implementación de soluciones utilizando el conjunto de tecnologías previamente
                     mencionado, el cual me permite ofrecer agilidad, escalabilidad y un rendimiento óptimo tanto en la
                     web como en dispositivos móviles.
@@ -41,18 +43,21 @@ export function AboutContent() {
                 <h2>Declaración</h2>
 
                 <p>
-                    Mi objetivo como desarrollador independiente es transformar ideas en realidades digitales
-                    funcionales y atractivas, automatizando procesos y resolviendo desafíos de negocio con un enfoque
-                    moderno y eficiente. Mi formación académica y mi experiencia práctica me permiten abordar proyectos
-                    de manera integral, desde la concepción hasta la implementación y el despliegue en diversas
-                    plataformas.
+                    Mi objetivo como desarrollador independiente es <strong>transformar ideas en realidades digitales
+                    funcionales</strong> y atractivas, automatizando procesos y resolviendo desafíos de negocio con un
+                    enfoque moderno y eficiente. Mi formación académica y mi experiencia práctica me permiten abordar
+                    proyectos de manera integral, desde la concepción hasta la implementación y el despliegue en
+                    diversas plataformas.
                 </p>
 
                 <p>
                     Estoy a su disposición para colaborar en sus proyectos, aportando mi experiencia y mi
                     especialización en las últimas tecnologías del desarrollo web y móvil. Si busca un desarrollador
-                    independiente con un enfoque en Supabase, Cloudflare, Inngest, Next.js y React Native con Expo,
-                    ¡conversemos sobre cómo puedo ayudarle a materializar su visión!
+                    independiente con un enfoque en Supabase, Cloudflare, Inngest, Next.js y React Native con Expo.
+                </p>
+
+                <p>
+                    <a href="/contact">¡Conversemos sobre cómo puedo ayudarle a materializar su visión!</a>
                 </p>
             </div>
         </main>
