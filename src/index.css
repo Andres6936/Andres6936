@@ -746,10 +746,17 @@ pre {
     }
 }
 
+.gap\:1rem {
+    gap: 1rem;
+}
+
+.gap-y\:0rem {
+    row-gap: 0;
+}
+
 .cta__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
-    gap: 1em;
     margin-bottom: 1rem;
 }
 
@@ -777,6 +784,12 @@ pre {
     width: 100%;
     padding: 0.35em 0.75em 0.25em;
     font-size: 0.9em;
+}
+
+.textarea-indicator-length {
+    text-align: end;
+    font-size: 0.85rem;
+    opacity: 0.5;
 }
 
 input.formkit-checkbox {
