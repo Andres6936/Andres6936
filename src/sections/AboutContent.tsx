@@ -2,78 +2,85 @@ export function AboutContent() {
     return (
         <main id="main-content">
             <div className="container flow">
-                <h1 className="title">About me</h1>
+                <h1 className="title">Sobre mi</h1>
 
-                <p>Hi there! My name is Kevin and I'm a CSS Evangelist. I absolutely love CSS, and I want to help new
-                    front-end
-                    devs enjoy learning it, and help seasoned vets see how great it really is.</p>
-                <p>Most of my content is over on YouTube, but I also stream on Twitch, and write articles every now and
-                    then as
-                    well, not to mention my courses.</p>
-
-                <h2>YouTube</h2>
+                <h2>Estudios</h2>
                 <p>
-                    <strong>Weekly front-end web development &amp; design tips, tricks, and tutorials</strong>. With a
-                    focus on
-                    HTML &amp; CSS, along with a splash of JS, some videos focus on properly understanding fundamental
-                    concepts,
-                    others explore little known or often misused CSS properties, and there are long series that explore
-                    taking
-                    everything and building out actual pages.</p>
+                    Soy un desarrollador independiente con una sólida formación en <strong>Ingeniería de Sistemas y una
+                    Maestría en Informática</strong>, ambos títulos otorgados por la Universidad Santiago de Cali.
+                </p>
+
                 <p>
-                    <a href="https://www.youtube.com/kevinpowell">My YouTube channel</a>
-                    is where everything started, and it’s what continues to drive things.</p>
+                    Mi especialización se centra en la construcción de <strong>soluciones web y aplicaciones
+                    móviles</strong> modernas y escalables, utilizando tecnologías de vanguardia para ofrecer resultados
+                    eficientes y de alto rendimiento.
+                </p>
 
-                <h2>Twitch</h2>
-                <p>While YouTube is fun, there is something different when it comes to livestreams. They show a more
-                    realistic
-                    example of how we tackle problems, and it's also a lot of fun interacting with the chat!</p>
-                <p>I'd love to see you during one of my streams <a href="https://www.twitch.tv/kevinpowellcss">over on
-                    Twitch</a>, and if I'm not live, you can catch replays of previous streams there as well.</p>
+                <h2>Trayectoria</h2>
 
-                <h2>How I got here</h2>
-                <p>I never in my life imagined that I&#39;d have a successful YouTube channel and that people would
-                    actually
-                    want to purchase courses from me!</p>
-                <p>Way back in the day I studied Film, and then I managed to get a BA in Urban Studies, and then,
-                    eventually, a
-                    vocational degree in Graphic Design, and it&#39;s that design degree that sort of kicked things
-                    off.</p>
-                <p>Going way back though, I made my first web pages back in the late 90s when I was still in highschool.
-                    It
-                    involved a lot of Photoshop designs, slicing things up, and building layouts using HTML tables. It
-                    might
-                    sound terrible (it was), but it was a ton of fun.</p>
-                <p>Photoshop and making pages as a hobby were something I kept doing for years, on and off. This makes
-                    it really
-                    hard to answer when people ask me how long it takes to learn something as well as I know it, because
-                    I&#39;ve
-                    been doing it for a long time 😅.</p>
-                <p>That said, I only started to really take it seriously when I was getting my design degree, and then
-                    moreso
-                    when I was working as a designer. </p>
-                <p>At the small company that I worked at, I primarily focused on print design. I was also not paid very
-                    much, so
-                    I started doing freelance work on the side, and that freelance work was almost all UI design. </p>
-                <p>I figured that since people were willing to pay me for designing a site, they might also pay me to
-                    actually
-                    build it as well, and I really dove in to that side of things, and it turned out that I enjoyed
-                    making sites
-                    more than I enjoyed designing them.</p>
-                <p>Then one day, something really unexpected happened. Out of the blue, one of my old design teachers
-                    called me
-                    up and said that the school was looking for teachers and the next thing I knew, I was teaching!</p>
-                <p>While the school primarily focuses on print design, it has a few web classes as well, and with some
-                    experience there, I quickly became one of the go to web teachers, and I absolutely loved it.</p>
-                <p>The only downside was the web classes were all introductory ones, and after 2 years, I was looking
-                    for more,
-                    and I decided to start my own YouTube channel. The idea here was more about keeping up to date and
-                    giving
-                    myself a reason to keep on learning and pushing and going deeper. I never had planned for it to grow
-                    and
-                    become something that would grow to what it&#39;s become today.</p>
-                <p>But here we are!</p>
+                <p>
+                    Mi trayectoria reciente se ha consolidado en el ecosistema de herramientas innovadoras como Supabase
+                    para la gestión de la lógica del servidor y bases de datos, Cloudflare para la optimización y
+                    seguridad de la infraestructura, Inngest para la gestión robusta de flujos de trabajo asíncronos y
+                    Next.js para la creación de aplicaciones web rápidas y dinámicas con React.
+                </p>
 
+                <p>
+                    Cuento con una sólida experiencia en el desarrollo de aplicaciones móviles multiplataforma
+                    utilizando React
+                    Native con Expo. Estas tecnologías son fundamentales en mi trabajo como desarrollador independiente,
+                    permitiéndome ofrecer soluciones integrales y adaptadas a las necesidades de cada proyecto.
+                </p>
+
+
+                <h2>Experiencia</h2>
+
+                <p>
+                    A lo largo de mi carrera, también he adquirido experiencia en plataformas como AWS y Microsoft
+                    Azure, así como en bases de datos NoSQL como DynamoDB y MongoDB.
+                </p>
+
+                <p>
+                    Mi enfoque actual y mi
+                    mayor pericia residen en la implementación de soluciones utilizando el conjunto de tecnologías
+                    previamente
+                    mencionado, el cual me permite ofrecer agilidad, escalabilidad y un rendimiento óptimo tanto en la
+                    web como en dispositivos móviles.
+                </p>
+
+                <h2>Competencias</h2>
+
+                <p>
+                    Mis competencias clave abarcan la optimización del rendimiento, la gestión eficiente de recursos, la
+                    ingeniería de software de alta calidad, la automatización de procesos y la aplicación de principios
+                    de diseño (SOLID, MVC), microservicios y estándares de la industria.
+                </p>
+
+                <h2>Objetivo</h2>
+
+                <p>
+                    Mi objetivo como desarrollador independiente es <strong>transformar ideas en
+                    realidades</strong> digitales funcionales y atractivas, automatizando procesos y resolviendo
+                    desafíos de negocio con un enfoque moderno y eficiente.
+                </p>
+
+                <h2>Declaración</h2>
+
+                <p>
+                    Mi formación académica y mi experiencia práctica me permiten <strong>abordar
+                    proyectos de manera integral</strong>, desde la concepción hasta la implementación y el despliegue
+                    en
+                    diversas plataformas.
+                </p>
+
+                <p>
+                    Estoy a su disposición para colaborar en sus proyectos, aportando mi experiencia y mi
+                    especialización en las últimas tecnologías del desarrollo web y móvil.
+                </p>
+
+                <p>
+                    <a href="/contact">¡Conversemos sobre cómo puedo ayudarle a materializar su visión!</a>
+                </p>
             </div>
         </main>
     )

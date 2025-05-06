@@ -1,0 +1,45 @@
+
+.Container {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: var(--clr-neutral-200);
+}
+
+@media only screen and (min-width: 40em) {
+    .Container {
+        padding: 4rem;
+        margin: 4rem 0;
+    }
+}
+
+.ContainerGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
+    margin-bottom: 1rem;
+}
+
+.Container input {
+    width: 100%;
+    padding: 0.35em 0.75em 0.25em;
+    font-size: 0.9em;
+}
+
+.Container label {
+    --font-weight: 700;
+    font-size: 0.8em;
+}
+
+.TextAreaInput {
+    width: 100%;
+    padding: 0.35em 0.75em 0.25em;
+    font-size: 0.9em;
+    resize: none;
+    field-sizing: content;
+}
+
+.TextAreaIndicatorLength {
+    text-align: end;
+    font-size: 0.85rem;
+    opacity: 0.5;
+}
+

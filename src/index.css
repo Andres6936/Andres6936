@@ -176,27 +176,7 @@ time + p {
     margin: 2em 0 1em !important;
 }
 
-h1,
-.h1 {
-    font-size: --fs-800;
-}
 
-h2,
-.h2 {
-    --flow-spacer: 1.5em;
-    font-size: --fs-700;
-}
-
-h3,
-.h3 {
-    --flow-spacer: 1.5em;
-    font-size: --fs-600;
-}
-
-h4,
-.h4 {
-    font-size: --fs-500;
-}
 
 small,
 .text-small {
@@ -733,49 +713,6 @@ pre {
     pointer-events: none;
 }
 
-.cta {
-    margin: 2rem 0;
-    padding: 2rem;
-    background: var(--clr-neutral-200);
-}
-
-@media only screen and (min-width: 40em) {
-    .cta {
-        padding: 4rem;
-        margin: 4rem 0;
-    }
-}
-
-.cta__grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
-    gap: 1em;
-    margin-bottom: 1rem;
-}
-
-.cta input {
-    width: 100%;
-    padding: 0.35em 0.75em 0.25em;
-    font-size: 0.9em;
-}
-
-.cta label {
-    --font-weight: 700;
-    font-size: 0.8em;
-}
-
-.cta__fine-print {
-    font-size: 0.8em;
-}
-
-.formkit-checkboxes {
-    display: flex;
-    margin: 0.5em 0;
-}
-
-input.formkit-checkbox {
-    width: max-content;
-}
 
 body::-webkit-scrollbar {
     width: 1rem;
@@ -1002,4 +939,12 @@ iframe {
 
 .letter-thanks {
     margin-top: 1rem;
+}
+
+.gap\:1rem {
+    gap: 1rem;
+}
+
+.gap-y\:0rem {
+    row-gap: 0;
 }
