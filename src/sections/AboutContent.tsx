@@ -59,23 +59,23 @@ export function AboutContent() {
                 <h2>Objetivo</h2>
 
                 <p>
-                    Mi objetivo como desarrollador independiente es <strong>transformar ideas en realidades digitales
-                    funcionales</strong> y atractivas, automatizando procesos y resolviendo desafíos de negocio con un
-                    enfoque moderno y eficiente.
-                </p>
-
-                <p>
-                    Mi formación académica y mi experiencia práctica me permiten abordar
-                    proyectos de manera integral, desde la concepción hasta la implementación y el despliegue en
-                    diversas plataformas.
+                    Mi objetivo como desarrollador independiente es <strong>transformar ideas en
+                    realidades</strong> digitales funcionales y atractivas, automatizando procesos y resolviendo
+                    desafíos de negocio con un enfoque moderno y eficiente.
                 </p>
 
                 <h2>Declaración</h2>
 
                 <p>
+                    Mi formación académica y mi experiencia práctica me permiten <strong>abordar
+                    proyectos de manera integral</strong>, desde la concepción hasta la implementación y el despliegue
+                    en
+                    diversas plataformas.
+                </p>
+
+                <p>
                     Estoy a su disposición para colaborar en sus proyectos, aportando mi experiencia y mi
-                    especialización en las últimas tecnologías del desarrollo web y móvil. Si busca un desarrollador
-                    independiente con un enfoque en Supabase, Cloudflare, Inngest, Next.js y React Native con Expo.
+                    especialización en las últimas tecnologías del desarrollo web y móvil.
                 </p>
 
                 <p>
