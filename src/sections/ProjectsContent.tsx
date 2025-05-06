@@ -2,11 +2,11 @@ export function ProjectsContent() {
     return (
         <main id="main-content">
             <div className="container flow">
-                <h1 className="title">Courses</h1>
-                <p><a href="https://courses.kevinpowell.co/login">Sign into the course dashboard here.</a></p>
-                <p>Below are all my courses. Some are currently open for registration, others are being worked on. If a
-                    course
-                    is closed, you can sign up on the page to be notified of when it opens for registrations 😊.</p>
+                <h1 className="title">Proyectos</h1>
+                <p>Aquí comparto algunos de los proyectos que han marcado mi trayectoria como desarrollador
+                    independiente. Verás una mezcla de trabajos profesionales y proyectos personales, cada uno con sus
+                    propios desafíos y aprendizajes. ¡Espero que disfrutes viendo cómo he ido creciendo y aplicando mis
+                    conocimientos!</p>
 
                 <div className="course-grid">
 
