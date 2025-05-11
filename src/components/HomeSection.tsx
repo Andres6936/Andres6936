@@ -1,6 +1,8 @@
 import React from "react";
 import {Link} from "react-router";
 
+import Styles from './HomeSection.module.css'
+
 type Variant = "Article" | "Course" | "Youtube" | "Patreon"
 
 type Props = {
@@ -19,13 +21,13 @@ type Props = {
 const getClassNameSection = (variant: Variant) => {
     switch (variant) {
         case "Article":
-            return "article"
+            return Styles.White
         case "Course":
-            return "course"
+            return Styles.Blue
         case "Youtube":
-            return "youtube"
+            return Styles.Red
         case "Patreon":
-            return "patreon"
+            return Styles.Orange
         default:
             return ""
     }
@@ -33,7 +35,7 @@ const getClassNameSection = (variant: Variant) => {
 
 export function HomeSection(props: Props) {
     return (
-        <section aria-labelledby={props.id} className={"home-section " + getClassNameSection(props.variant)}>
+        <section aria-labelledby={props.id} className={`${Styles.HomeSection} ${getClassNameSection(props.variant)}`}>
             <div className="container flow">
                 <header>
                     <h2 id={props.id} className={"section__title " + (props.classNameTitle || '')}>{props.title}</h2>
