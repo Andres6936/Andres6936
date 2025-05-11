@@ -50,10 +50,6 @@
     --clr: var(--clr-resource-400);
 }
 
-.PrimaryNav li.active a {
-    text-decoration-thickness: 0.25em;
-}
-
 .PrimaryNav a {
     color: var(--clr, var(--clr-primary-400));
     text-underline-offset: 0.25em;
@@ -62,4 +58,8 @@
 
 .PrimaryNav a:hover, .PrimaryNav a:focus {
     color: var(--clr-neutral-900);
+}
+
+.Active a {
+    text-decoration-thickness: 0.25em;
 }

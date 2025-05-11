@@ -28,7 +28,7 @@ const NavItem = ({to, children}: Props) => {
     const isActive = location.pathname === to;
 
     return (
-        <li className={isActive ? "active" : ""}>
+        <li className={isActive ? Styles.Active : ""}>
             <Link to={to}>{children}</Link>
         </li>
     )
