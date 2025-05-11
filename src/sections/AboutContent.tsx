@@ -1,10 +1,13 @@
+import React from "react";
+import {Link} from "react-router";
+
 export function AboutContent() {
     return (
         <main id="main-content">
             <div className="container flow">
                 <h1 className="title">Sobre mi</h1>
 
-                <h2>Estudios</h2>
+                <Title>Estudios</Title>
                 <p>
                     Soy un desarrollador independiente con una sólida formación en <strong>Ingeniería de Sistemas y una
                     Maestría en Informática</strong>, ambos títulos otorgados por la Universidad Santiago de Cali.
@@ -16,7 +19,7 @@ export function AboutContent() {
                     eficientes y de alto rendimiento.
                 </p>
 
-                <h2>Trayectoria</h2>
+                <Title>Trayectoria</Title>
 
                 <p>
                     Mi trayectoria reciente se ha consolidado en el ecosistema de herramientas innovadoras como Supabase
@@ -33,7 +36,7 @@ export function AboutContent() {
                 </p>
 
 
-                <h2>Experiencia</h2>
+                <Title>Experiencia</Title>
 
                 <p>
                     A lo largo de mi carrera, también he adquirido experiencia en plataformas como AWS y Microsoft
@@ -48,7 +51,7 @@ export function AboutContent() {
                     web como en dispositivos móviles.
                 </p>
 
-                <h2>Competencias</h2>
+                <Title>Competencias</Title>
 
                 <p>
                     Mis competencias clave abarcan la optimización del rendimiento, la gestión eficiente de recursos, la
@@ -56,7 +59,7 @@ export function AboutContent() {
                     de diseño (SOLID, MVC), microservicios y estándares de la industria.
                 </p>
 
-                <h2>Objetivo</h2>
+                <Title>Objetivo</Title>
 
                 <p>
                     Mi objetivo como desarrollador independiente es <strong>transformar ideas en
@@ -64,7 +67,7 @@ export function AboutContent() {
                     desafíos de negocio con un enfoque moderno y eficiente.
                 </p>
 
-                <h2>Declaración</h2>
+                <Title>Declaración</Title>
 
                 <p>
                     Mi formación académica y mi experiencia práctica me permiten <strong>abordar
@@ -79,9 +82,13 @@ export function AboutContent() {
                 </p>
 
                 <p>
-                    <a href="/contact">¡Conversemos sobre cómo puedo ayudarle a materializar su visión!</a>
+                    <Link to="/contact">¡Conversemos sobre cómo puedo ayudarle a materializar su visión!</Link>
                 </p>
             </div>
         </main>
     )
 }
+
+const Title = ({children}: { children: React.ReactNode }) => (
+    <h2 className="pt:1.5rem pb:0.75rem">{children}</h2>
+)
