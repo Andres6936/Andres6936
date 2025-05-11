@@ -3,12 +3,14 @@ import {HomeSection} from "./HomeSection.tsx";
 export function Red() {
     return (
         <HomeSection
-            to="/about"
             id="youtube-title"
             title="Interés"
             subtitle="objetivos & dedicación"
-            titleButton="ver más"
             variant="Youtube"
+            buttonStyle={{
+                to: "/about",
+                title: "ver más"
+            }}
         >
             <p>
                 Mi interés se centra en la <strong>automatización de procesos</strong> como una herramienta

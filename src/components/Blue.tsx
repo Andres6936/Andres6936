@@ -3,12 +3,14 @@ import {HomeSection} from "./HomeSection.tsx";
 export function Blue() {
     return (
         <HomeSection
-            to="/about"
             id="article-title"
             title="Sobre mi"
             subtitle="hitos, carrera & estudios"
-            titleButton="¿quién soy?"
             variant="Article"
+            buttonStyle={{
+                to: "/about",
+                title: "¿quién soy?",
+            }}
         >
             <p>
                 ¿Te interesa conocer el camino que me ha llevado hasta aquí? Te invito a

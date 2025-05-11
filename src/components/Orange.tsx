@@ -3,12 +3,14 @@ import {HomeSection} from "./HomeSection.tsx";
 export function Orange() {
     return (
         <HomeSection
-            to="/contact"
             id="patreon-title"
             title="Contacto"
             subtitle="contáctame"
-            titleButton="contáctame"
             variant="Patreon"
+            buttonStyle={{
+                to: "/contact",
+                title: "contáctame",
+            }}
         >
             <p>
                 <strong>¿Tienes una idea en mente? ¿Un proyecto que quieres hacer realidad?</strong>

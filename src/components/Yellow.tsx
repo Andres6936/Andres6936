@@ -3,15 +3,17 @@ import {HomeSection} from "./HomeSection.tsx";
 export function Yellow() {
     return (
         <HomeSection
-            to="/projects"
             id="courses-title"
             title="Proyectos"
             subtitle="profesionales & personales"
-            titleButton="Explorar mis proyectos"
             variant="Course"
-            dataReverseButton="true"
             classNameTitle="text-neutral-100"
             classNameSubtitle="text-neutral-100"
+            buttonStyle={{
+                to: "/projects",
+                title: "Explorar mis proyectos",
+                reverse: "true",
+            }}
         >
             <p>
                 <strong>Descubre la diversidad de mis habilidades e intereses en acción.</strong>

@@ -6,16 +6,18 @@ import Styles from './HomeSection.module.css'
 type Variant = "Article" | "Course" | "Youtube" | "Patreon"
 
 type Props = {
-    to: string,
     id: string,
     title: string,
     subtitle: string,
-    titleButton: string,
-    dataReverseButton?: "true",
     variant: Variant,
     classNameTitle?: string,
     classNameSubtitle?: string,
     children: React.ReactNode,
+    buttonStyle: {
+        to: string,
+        title: string,
+        reverse?: "true",
+    }
 }
 
 const getClassNameSection = (variant: Variant) => {
@@ -45,7 +47,12 @@ export function HomeSection(props: Props) {
                 </header>
                 {props.children}
                 <div className="pt:1.5rem pb:1rem"/>
-                <Link to={props.to} className="button" data-reverse={props.dataReverseButton}>{props.titleButton}</Link>
+                <Link
+                    className="button"
+                    to={props.buttonStyle.to}
+                    data-reverse={props.buttonStyle.reverse}>
+                    {props.buttonStyle.title}
+                </Link>
             </div>
         </section>
     )
