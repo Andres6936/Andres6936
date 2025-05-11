@@ -44,6 +44,7 @@ export function HomeSection(props: Props) {
                     <p className={props.classNameSubtitle || ''}>{props.subtitle}</p>
                 </header>
                 {props.children}
+                <div className="pt:1.5rem pb:1rem"/>
                 <Link to={props.to} className="button" data-reverse={props.dataReverseButton}>{props.titleButton}</Link>
             </div>
         </section>
