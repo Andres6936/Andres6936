@@ -1,12 +1,14 @@
+import Styles from './Hero.module.css'
+
 export function Hero() {
     return (
         <div className="container">
-            <section aria-labelledby="hero-title" className="hero">
-                <h1 id="hero-title" className="hero__title">
+            <section aria-labelledby="hero-title" className={Styles.Hero}>
+                <h1 id="hero-title" className={Styles.Title}>
                     Hola, soy Joan.<br/> Convierto ideas de negocio en plataformas, con presencia en móviles y
                     web.
                 </h1>
-                <div className="hero__paragraph flow">
+                <div className={"flow " + Styles.Paragraph}>
                     <p>
                         Mi pasión es transformar ideas de negocio en realidades digitales. Me encargo de
                         diseñar y desarrollar plataformas integrales que abarcan tanto la experiencia móvil como la
