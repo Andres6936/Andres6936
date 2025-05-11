@@ -1,14 +1,12 @@
 import React from "react";
 import {Link, useLocation} from "react-router";
 
+import Styles from './Navigator.module.css'
+
 export function Navigator() {
     return (
-        <header>
-            <a id="skip-nav" className="screenreader-text" href="#main-content">
-                Ir al contenido
-            </a>
-
-            <nav className="primary-nav">
+        <header className={Styles.Header}>
+            <nav className={Styles.PrimaryNav}>
                 <ul role="list" className="nav-list">
                     <NavItem to="/">Inicio</NavItem>
                     <NavItem to="/about">Acerca</NavItem>
@@ -30,7 +28,7 @@ const NavItem = ({to, children}: Props) => {
     const isActive = location.pathname === to;
 
     return (
-        <li className={isActive ? "active" : ""}>
+        <li className={isActive ? Styles.Active : ""}>
             <Link to={to}>{children}</Link>
         </li>
     )

@@ -1,0 +1,52 @@
+
+.HomeSection {
+    padding: var(--section-spacing) 0;
+}
+
+.HomeSection header {
+    width: max-content;
+    text-align: right;
+}
+
+.HomeSection h2 {
+    --font-weight: 900;
+    font-size: var(--fs-700);
+    color: var(--clr);
+    line-height: 0.8;
+}
+
+.HomeSection h2 + p {
+    --font-weight: 300;
+    color: var(--clr-neutral-700);
+    margin-top: 0;
+    font-size: 0.85em;
+    border-radius: 0.4em;
+    margin-bottom: 2em;
+}
+
+.Red {
+    --clr: var(--clr-youtube-400);
+    background-image: url("/img/Youtube.svg"), linear-gradient(120deg, var(--clr-neutral-100), var(--clr-youtube-100));
+    background-repeat: no-repeat;
+    background-position: center, top left;
+    background-size: 55rem, 400%;
+}
+
+.Blue {
+    --clr: var(--clr-course-400);
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-course-400);
+    background-image: linear-gradient(120deg, var(--clr-article-400), var(--clr-course-400));
+}
+
+.Blue a:not([class]) {
+    color: white;
+}
+
+.White {
+    --clr: var(--clr-article-400);
+}
+
+.Orange {
+
+}

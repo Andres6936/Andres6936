@@ -1,0 +1,76 @@
+
+.Hero {
+    margin-bottom: var(--section-spacing);
+    display: grid;
+    gap: 1em;
+    grid-template-areas: "heading" "image" "paragraph";
+    position: relative;
+}
+
+@media only screen and (min-width: 40em) {
+    .Hero {
+        grid-template-areas: "image heading" "paragraph paragraph";
+    }
+}
+
+@media only screen and (min-width: 65em) {
+    .Hero {
+        grid-template-areas: "image heading" "image paragraph";
+    }
+}
+
+.Title {
+    grid-area: heading;
+    font-size: var(--fs-600);
+    color: var(--clr-neutral-100);
+    padding: 0.5rem 0;
+}
+
+.Paragraph {
+    grid-area: paragraph;
+}
+
+.Hero picture {
+    overflow: hidden;
+    border-radius: 0.5em;
+    border: 0.5em solid white;
+    grid-area: image;
+    background: white;
+    align-self: start;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15);
+}
+
+.Hero picture > img {
+    border-radius: 0.25em;
+    width: inherit;
+    height: 100%;
+    max-width: inherit;
+    max-height: inherit;
+    min-width: inherit;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media only screen and (min-width: 40em) {
+    .Hero picture {
+        width: 25vw;
+        height: 100%;
+        min-width: 15rem;
+        max-width: 17.5rem;
+        max-height: 25rem;
+    }
+}
+
+.Hero::before {
+    content: "";
+    position: absolute;
+    top: -0.5em;
+    bottom: -0.5em;
+    left: -0.5em;
+    right: -0.5em;
+    background-color: var(--clr-primary-400);
+    background-image: linear-gradient(145deg, var(--clr-youtube-400), var(--clr-primary-300));
+    grid-row: 1/2;
+    z-index: -1;
+    border-radius: 1em;
+}
