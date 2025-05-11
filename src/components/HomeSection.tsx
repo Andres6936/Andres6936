@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router";
 
 type Variant = "Article"
 
@@ -30,7 +31,7 @@ export function HomeSection(props: Props) {
                     <p className="section__subtitle">{props.subtitle}</p>
                 </header>
                 {props.children}
-                <a href={props.to} className="button">{props.titleButton}</a>
+                <Link to={props.to} className="button">{props.titleButton}</Link>
             </div>
         </section>
     )
