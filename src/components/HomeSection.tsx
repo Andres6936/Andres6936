@@ -34,15 +34,18 @@ const getClassNameSection = (variant: Variant) => {
 }
 
 export function HomeSection(props: Props) {
-    return <section aria-labelledby={props.id}
-                    className={`${Styles.HomeSection} ${getClassNameSection(props.variant)}`}>
-        <div className="container flow">
-            <header>
-                <h2 id={props.id} className={props.classNameTitle || ''}>{props.title}</h2>
-                <p className={props.classNameSubtitle || ''}>{props.subtitle}</p>
-            </header>
-            {props.children}
-            <Link to={props.to} className="button" data-reverse={props.dataReverseButton}>{props.titleButton}</Link>
-        </div>
-    </section>
+    return (
+        <section
+            aria-labelledby={props.id}
+            className={`${Styles.HomeSection} ${getClassNameSection(props.variant)}`}>
+            <div className="container flow">
+                <header>
+                    <h2 id={props.id} className={props.classNameTitle || ''}>{props.title}</h2>
+                    <p className={props.classNameSubtitle || ''}>{props.subtitle}</p>
+                </header>
+                {props.children}
+                <Link to={props.to} className="button" data-reverse={props.dataReverseButton}>{props.titleButton}</Link>
+            </div>
+        </section>
+    )
 }
