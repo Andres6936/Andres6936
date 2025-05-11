@@ -7,7 +7,7 @@ export function Navigator() {
     return (
         <header className={Styles.Header}>
             <nav className={Styles.PrimaryNav}>
-                <ul role="list">
+                <ul role="list" className="nav-list">
                     <NavItem to="/">Inicio</NavItem>
                     <NavItem to="/about">Acerca</NavItem>
                     <NavItem to="/projects">Proyectos</NavItem>
