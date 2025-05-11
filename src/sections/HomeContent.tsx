@@ -10,14 +10,14 @@ export function HomeContent() {
                     </h1>
                     <div className="hero__paragraph flow">
                         <p>
-                            Mi pasión es transformar ideas de negocio en realidades digitales completas. Me encargo de
+                            Mi pasión es transformar ideas de negocio en realidades digitales. Me encargo de
                             diseñar y desarrollar plataformas integrales que abarcan tanto la experiencia móvil como la
                             presencia web.
                         </p>
                         <p>
                             Mi objetivo es ofrecer una <strong>solución unificada que permita a tu negocio
                             alcanzar a tu audiencia</strong> en todos los dispositivos de manera eficiente y con una
-                            imagen profesional impactante.
+                            imagen profesional.
                         </p>
                     </div>
 
