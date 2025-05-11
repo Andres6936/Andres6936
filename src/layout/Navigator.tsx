@@ -6,8 +6,8 @@ import Styles from './Navigator.module.css'
 export function Navigator() {
     return (
         <header className={Styles.Header}>
-            <nav className="primary-nav">
-                <ul role="list" className="nav-list">
+            <nav className={Styles.PrimaryNav}>
+                <ul role="list">
                     <NavItem to="/">Inicio</NavItem>
                     <NavItem to="/about">Acerca</NavItem>
                     <NavItem to="/projects">Proyectos</NavItem>
