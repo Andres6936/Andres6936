@@ -5,7 +5,7 @@ export function HomeContent() {
             <div className="container">
                 <section aria-labelledby="hero-title" className="hero">
                     <h1 id="hero-title" className="hero__title">
-                        Hola, soy Joan. Convierto ideas de negocio en plataformas completas, con presencia en móviles y
+                        Hola, soy Joan.<br/> Convierto ideas de negocio en plataformas, con presencia en móviles y
                         web.
                     </h1>
                     <div className="hero__paragraph flow">
