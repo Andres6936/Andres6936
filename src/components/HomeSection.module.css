@@ -9,6 +9,7 @@
 }
 
 .HomeSection h2 {
+    --font-weight: 900;
     font-size: var(--fs-700);
     color: var(--clr);
     line-height: 0.8;
