@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router";
 
-type Variant = "Article" | "Course"
+type Variant = "Article" | "Course" | "Youtube"
 
 type Props = {
     to: string,
@@ -22,6 +22,8 @@ const getClassNameSection = (variant: Variant) => {
             return "article"
         case "Course":
             return "course"
+        case "Youtube":
+            return "youtube"
         default:
             return ""
     }
