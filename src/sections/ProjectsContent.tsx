@@ -31,10 +31,10 @@ export function ProjectsContent() {
                     </CardItemComponent.Root>
 
                     <CardItemComponent.Root>
-                        <h2 className="course-title">
-                            <a href="https://courses.kevinpowell.co/conquering-responsive-layouts">Conquering Responsive
-                                Layouts</a>
-                        </h2>
+                        <CardItemComponent.Title
+                            to="https://courses.kevinpowell.co/conquering-responsive-layouts"
+                            title="Conquering Responsive Layouts"
+                        />
                         <CardItemComponent.Labels labels={['Free', 'Open']}/>
                         <CardItemComponent.Description>
                             <p>
@@ -49,9 +49,10 @@ export function ProjectsContent() {
                     </CardItemComponent.Root>
 
                     <CardItemComponent.Root>
-                        <h2 className="course-title">
-                            <a href="https://cssdemystified.com">CSS Demystified</a>
-                        </h2>
+                        <CardItemComponent.Title
+                            to="https://cssdemystified.com"
+                            title="CSS Demystified"
+                        />
                         <CardItemComponent.Labels labels={['Premium', 'Open']}/>
                         <CardItemComponent.Description>
                             <p><strong>Start writing CSS with confidence!</strong></p>
@@ -66,9 +67,10 @@ export function ProjectsContent() {
                     </CardItemComponent.Root>
 
                     <CardItemComponent.Root>
-                        <h2 className="course-title">
-                            <a href="https://flexboxsimplified.com">Flexbox Simplified</a>
-                        </h2>
+                        <CardItemComponent.Title
+                            to="https://flexboxsimplified.com"
+                            title="Flexbox Simplified"
+                        />
                         <CardItemComponent.Labels labels={['Premium', 'Open']}/>
                         <CardItemComponent.Description>
                             <p>Getting started with flexbox is easy. A nice little display: flex and you have
@@ -88,9 +90,10 @@ export function ProjectsContent() {
                     </CardItemComponent.Root>
 
                     <CardItemComponent.Root>
-                        <h2 className="course-title">
-                            <a href="https://learn.kevinpowell.co/">HTML &amp; CSS for absolute beginners</a>
-                        </h2>
+                        <CardItemComponent.Title
+                            to="https://learn.kevinpowell.co/"
+                            title="HTML & CSS for absolute beginners"
+                        />
                         <CardItemComponent.Labels labels={['Free', 'Open']}/>
                         <CardItemComponent.Description>
                             <p>A free course for people who are new to web development, going from the absolute basics
@@ -106,9 +109,10 @@ export function ProjectsContent() {
                     </CardItemComponent.Root>
 
                     <CardItemComponent.Root>
-                        <h2 className="course-title">
-                            <a href="https://scrimba.com/learn/introhtmlcss">HTML &amp; CSS Crash Course</a>
-                        </h2>
+                        <CardItemComponent.Title
+                            to="https://scrimba.com/learn/introhtmlcss"
+                            title="HTML & CSS Crash Course"
+                        />
                         <CardItemComponent.Labels labels={['Free', 'Open']}/>
                         <CardItemComponent.Description>
                             <p>Hosted on Scrimba, this free course is for people who are completely new to
@@ -122,9 +126,10 @@ export function ProjectsContent() {
                     </CardItemComponent.Root>
 
                     <CardItemComponent.Root>
-                        <h2 className="course-title">
-                            <a href="https://scrimba.com/learn/responsive">The Responsive Design Bootcamp</a>
-                        </h2>
+                        <CardItemComponent.Title
+                            to="https://scrimba.com/learn/responsive"
+                            title="The Responsive Design Bootcamp"
+                        />
                         <CardItemComponent.Labels labels={['Premium', 'Open']}/>
                         <CardItemComponent.Description>
                             <p>Taking off where the HTML &amp; CSS Crash course leaves off, this course takes you from
@@ -140,9 +145,10 @@ export function ProjectsContent() {
                     </CardItemComponent.Root>
 
                     <CardItemComponent.Root>
-                        <h2 className="course-title">
-                            <a href="https://beyondcss.dev/">Beyond CSS</a>
-                        </h2>
+                        <CardItemComponent.Title
+                            to="https://beyondcss.dev/"
+                            title="Beyond CSS"
+                        />
                         <CardItemComponent.Labels labels={['Premium', 'Open']}/>
                         <CardItemComponent.Description>
                             <p>Authoring stylesheets is about more than simply writing a few lines of CSS these
