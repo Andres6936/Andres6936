@@ -30,75 +30,47 @@ export function ProjectsContent() {
                         </CardItemComponent.Button>
                     </CardItemComponent.Root>
 
-                    <div className="course-card flow">
+                    <CardItemComponent.Root>
                         <h2 className="course-title">
                             <a href="https://courses.kevinpowell.co/conquering-responsive-layouts">Conquering Responsive
                                 Layouts</a>
                         </h2>
-                        <p className="label">
-
-                            free
-
-                        </p>
-                        <p className="label">
-
-                            open
-
-                        </p>
-                        <div className="course-description flow">
-                            <p>A free drip course which will take 21-days to complete. It goes over thinking
+                        <CardItemComponent.Labels labels={['Free', 'Open']}/>
+                        <CardItemComponent.Description>
+                            <p>
+                                A free drip course which will take 21-days to complete. It goes over thinking
                                 responsively, the
-                                basics of making responsive layouts with flexbox, and media queries.</p>
+                                basics of making responsive layouts with flexbox, and media queries.
+                            </p>
+                        </CardItemComponent.Description>
+                        <CardItemComponent.Button href="https://courses.kevinpowell.co/conquering-responsive-layouts">
+                            Enroll now
+                        </CardItemComponent.Button>
+                    </CardItemComponent.Root>
 
-                        </div>
-
-                        <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" className="button">Enroll
-                            now</a>
-
-                    </div>
-
-                    <div className="course-card flow">
+                    <CardItemComponent.Root>
                         <h2 className="course-title">
                             <a href="https://cssdemystified.com">CSS Demystified</a>
                         </h2>
-                        <p className="label">
-
-                            premium
-
-                        </p>
-                        <p className="label">
-
-                            open
-
-                        </p>
-                        <div className="course-description flow">
+                        <CardItemComponent.Labels labels={['Premium', 'Open']}/>
+                        <CardItemComponent.Description>
                             <p><strong>Start writing CSS with confidence!</strong></p>
                             <p>For people who already have a base in CSS, this course is about diving in and really
                                 understanding how CSS is meant to work, helping you overcome frustrations that we run
                                 into when
                                 writing CSS.</p>
+                        </CardItemComponent.Description>
+                        <CardItemComponent.Button href="https://cssdemystified.com">
+                            Enroll now
+                        </CardItemComponent.Button>
+                    </CardItemComponent.Root>
 
-                        </div>
-
-                        <a href="https://cssdemystified.com" className="button">Enroll now</a>
-
-                    </div>
-
-                    <div className="course-card flow">
+                    <CardItemComponent.Root>
                         <h2 className="course-title">
                             <a href="https://flexboxsimplified.com">Flexbox Simplified</a>
                         </h2>
-                        <p className="label">
-
-                            premium
-
-                        </p>
-                        <p className="label">
-
-                            open
-
-                        </p>
-                        <div className="course-description flow">
+                        <CardItemComponent.Labels labels={['Premium', 'Open']}/>
+                        <CardItemComponent.Description>
                             <p>Getting started with flexbox is easy. A nice little display: flex and you have
                                 columns.</p>
                             <p>Then it's time for the hard part: figuring out what strange combination of justifying,
@@ -109,109 +81,70 @@ export function ProjectsContent() {
                             <p>This course has everything you need to take control of flexbox and start using it to
                                 create
                                 components, and layouts, with confidence.</p>
+                        </CardItemComponent.Description>
+                        <CardItemComponent.Button href="https://flexboxsimplified.com">
+                            Enroll now
+                        </CardItemComponent.Button>
+                    </CardItemComponent.Root>
 
-                        </div>
-
-                        <a href="https://flexboxsimplified.com" className="button">Enroll now</a>
-
-                    </div>
-
-                    <div className="course-card flow">
+                    <CardItemComponent.Root>
                         <h2 className="course-title">
                             <a href="https://learn.kevinpowell.co/">HTML &amp; CSS for absolute beginners</a>
                         </h2>
-                        <p className="label">
-
-                            free
-
-                        </p>
-                        <p className="label">
-
-                            open
-
-                        </p>
-                        <div className="course-description flow">
+                        <CardItemComponent.Labels labels={['Free', 'Open']}/>
+                        <CardItemComponent.Description>
                             <p>A free course for people who are new to web development, going from the absolute basics
                                 of what
                                 HTML and CSS even are to creating a responsive, 2-page website. In this course, I cover
                                 all of
-                                the essentials that you'll need to get started in creating your own websites.</p>
+                                the essentials that you'll need to get started in creating your own websites.
+                            </p>
+                        </CardItemComponent.Description>
+                        <CardItemComponent.Button href="https://learn.kevinpowell.co/">
+                            Enroll now
+                        </CardItemComponent.Button>
+                    </CardItemComponent.Root>
 
-                        </div>
-
-                        <a href="https://learn.kevinpowell.co/" className="button">Enroll now</a>
-
-                    </div>
-
-                    <div className="course-card flow">
+                    <CardItemComponent.Root>
                         <h2 className="course-title">
                             <a href="https://scrimba.com/learn/introhtmlcss">HTML &amp; CSS Crash Course</a>
                         </h2>
-                        <p className="label">
-
-                            free
-
-                        </p>
-                        <p className="label">
-
-                            open
-
-                        </p>
-                        <div className="course-description flow">
+                        <CardItemComponent.Labels labels={['Free', 'Open']}/>
+                        <CardItemComponent.Description>
                             <p>Hosted on Scrimba, this free course is for people who are completely new to
                                 HTML &amp; CSS.</p>
                             <p>Working up from zero, you'll be building your first multi-page sites when you are
                                 done.</p>
+                        </CardItemComponent.Description>
+                        <CardItemComponent.Button href="https://scrimba.com/learn/introhtmlcss">
+                            Enroll now
+                        </CardItemComponent.Button>
+                    </CardItemComponent.Root>
 
-                        </div>
-
-                        <a href="https://scrimba.com/learn/introhtmlcss" className="button">Enroll now</a>
-
-                    </div>
-
-                    <div className="course-card flow">
+                    <CardItemComponent.Root>
                         <h2 className="course-title">
                             <a href="https://scrimba.com/learn/responsive">The Responsive Design Bootcamp</a>
                         </h2>
-                        <p className="label">
-
-                            premium
-
-                        </p>
-                        <p className="label">
-
-                            open
-
-                        </p>
-                        <div className="course-description flow">
+                        <CardItemComponent.Labels labels={['Premium', 'Open']}/>
+                        <CardItemComponent.Description>
                             <p>Taking off where the HTML &amp; CSS Crash course leaves off, this course takes you from
                                 the
                                 basics of HTML &amp; CSS and dives in deep.</p>
                             <p>It covers CSS in-depth, from general styling, typography, and layouts using flexbox and
                                 grid.</p>
                             <p>This course requires a membership with Scrimba.</p>
+                        </CardItemComponent.Description>
+                        <CardItemComponent.Button href="https://scrimba.com/learn/responsive">
+                            Enroll now
+                        </CardItemComponent.Button>
+                    </CardItemComponent.Root>
 
-                        </div>
-
-                        <a href="https://scrimba.com/learn/responsive" className="button">Enroll now</a>
-
-                    </div>
-
-                    <div className="course-card flow">
+                    <CardItemComponent.Root>
                         <h2 className="course-title">
                             <a href="https://beyondcss.dev/">Beyond CSS</a>
                         </h2>
-                        <p className="label">
-
-                            premium
-
-                        </p>
-                        <p className="label">
-
-                            open
-
-                        </p>
-                        <div className="course-description flow">
+                        <CardItemComponent.Labels labels={['Premium', 'Open']}/>
+                        <CardItemComponent.Description>
                             <p>Authoring stylesheets is about more than simply writing a few lines of CSS these
                                 days.</p>
                             <p>We have pre-processors, post-processors, design systems, and many different naming
@@ -219,12 +152,11 @@ export function ProjectsContent() {
                             <p>In this course I'll be looking at using Sass to develope reusable design systems, explore
                                 sane
                                 naming convetions, and use tools like Vite and PostCSS to optimize your builds.</p>
-
-                        </div>
-
-                        <a href="https://beyondcss.dev/" className="button">Enroll now</a>
-
-                    </div>
+                        </CardItemComponent.Description>
+                        <CardItemComponent.Button href="https://beyondcss.dev/">
+                            Enroll now
+                        </CardItemComponent.Button>
+                    </CardItemComponent.Root>
 
                 </div>
             </div>
