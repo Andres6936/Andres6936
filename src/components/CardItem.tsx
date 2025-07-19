@@ -1,9 +1,11 @@
 import React from "react";
 import {merge} from "../lib/utility";
 
+import Styles from './CardItem.module.css'
+
 function Root(props: React.ComponentPropsWithRef<'div'>) {
     return (
-        <div {...props} className={merge("course-card flow")}/>
+        <div {...props} className={merge(Styles.CourseCard, "flow")}/>
     )
 }
 
