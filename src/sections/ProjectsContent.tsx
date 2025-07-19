@@ -1,3 +1,5 @@
+import * as CardItemComponent from "../components/CardItem";
+
 export function ProjectsContent() {
     return (
         <main id="main-content">
@@ -10,31 +12,23 @@ export function ProjectsContent() {
 
                 <div className="course-grid">
 
-                    <div className="course-card flow">
-                        <h2 className="course-title">
-                            <a href="https://scrimba.com/learn/spacetravel">Build a space travel website</a>
-                        </h2>
-                        <p className="label">
-
-                            free
-
-                        </p>
-                        <p className="label">
-
-                            open
-
-                        </p>
-                        <div className="course-description flow">
-                            <p>Bring a Frontend Mentor design to life and create your own CSS design system while
-                                building a
-                                multi-page and responsive space travel website, including interactions with
-                                JavaScript.</p>
-
-                        </div>
-
-                        <a href="https://scrimba.com/learn/spacetravel" className="button">Enroll now</a>
-
-                    </div>
+                    <CardItemComponent.Root>
+                        <CardItemComponent.Title
+                            to="https://scrimba.com/learn/spacetravel"
+                            title="Build a space travel website"
+                        />
+                        <CardItemComponent.Labels labels={['Free', 'Open']}/>
+                        <CardItemComponent.Description>
+                            <p>
+                                Bring a Frontend Mentor design to life and create your own CSS design system while
+                                building a multi-page and responsive space travel website, including interactions with
+                                JavaScript.
+                            </p>
+                        </CardItemComponent.Description>
+                        <CardItemComponent.Button href="https://scrimba.com/learn/spacetravel">
+                            Enroll now
+                        </CardItemComponent.Button>
+                    </CardItemComponent.Root>
 
                     <div className="course-card flow">
                         <h2 className="course-title">
