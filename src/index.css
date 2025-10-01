@@ -685,26 +685,6 @@ iframe {
     }
 }
 
-.course-card {
-    padding: 2em;
-    border-radius: 0.5em;
-    box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.1);
-}
-
-.course-card h2 a {
-    color: var(--clr-neutral-800);
-    text-decoration: none;
-}
-
-.course-card h2 a:hover, .course-card h2 a:focus {
-    color: var(--clr-course-400);
-}
-
-.course-card p:not([class]) {
-    --font-width: 65;
-    font-size: 0.925em;
-}
-
 .resource *:target {
     border-bottom: 0.25em solid var(--clr);
     max-width: max-content;
