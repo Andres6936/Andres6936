@@ -16,7 +16,7 @@ export function ProjectsContent() {
         <div className="course-grid">
           <CardItemComponent.Root>
             <CardItemComponent.Title
-              to="https://scrimba.com/learn/spacetravel"
+              to="https://github.com/Andres6936/Serralta"
               title="Renovación de la Biblia Serralta"
             />
             <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
@@ -34,14 +34,14 @@ export function ProjectsContent() {
                 mejores prácticas de diseño.
               </p>
             </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://scrimba.com/learn/spacetravel">
+            <CardItemComponent.Button href="https://github.com/Andres6936/Serralta">
               Visitar
             </CardItemComponent.Button>
           </CardItemComponent.Root>
 
           <CardItemComponent.Root>
             <CardItemComponent.Title
-              to="https://courses.kevinpowell.co/conquering-responsive-layouts"
+              to="https://www.residuosambientales.com/"
               title="Automatización de Residuos Ambientales"
             />
             <CardItemComponent.Labels labels={["Libre", "Cerrado"]} />
@@ -60,14 +60,14 @@ export function ProjectsContent() {
                 gestión de residuos.
               </p>
             </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://courses.kevinpowell.co/conquering-responsive-layouts">
+            <CardItemComponent.Button href="https://www.residuosambientales.com/">
               Visitar
             </CardItemComponent.Button>
           </CardItemComponent.Root>
 
           <CardItemComponent.Root>
             <CardItemComponent.Title
-              to="https://cssdemystified.com"
+              to="https://fedeltamall.com.co/"
               title="Aplicación de e-commerce para Android e iOS"
             />
             <CardItemComponent.Labels labels={["Libre", "Cerrado"]} />
@@ -87,14 +87,14 @@ export function ProjectsContent() {
                 segura.
               </p>
             </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://cssdemystified.com">
+            <CardItemComponent.Button href="https://fedeltamall.com.co/">
               Visitar
             </CardItemComponent.Button>
           </CardItemComponent.Root>
 
           <CardItemComponent.Root>
             <CardItemComponent.Title
-              to="https://flexboxsimplified.com"
+              to="https://servigenerador.com/"
               title="Digitalización en Servigenerador"
             />
             <CardItemComponent.Labels labels={["Cerrado"]} />
@@ -110,14 +110,14 @@ export function ProjectsContent() {
                 eficiente de los procesos.
               </p>
             </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://flexboxsimplified.com">
+            <CardItemComponent.Button href="https://servigenerador.com/">
               Visitar
             </CardItemComponent.Button>
           </CardItemComponent.Root>
 
           <CardItemComponent.Root>
             <CardItemComponent.Title
-              to="https://learn.kevinpowell.co/"
+              to="https://github.com/Andres6936/Marketplace"
               title="Implementación pasarelas de pago Mercado Page y PSE"
             />
             <CardItemComponent.Labels labels={["Cerrado"]} />
@@ -131,14 +131,14 @@ export function ProjectsContent() {
                 documentos para mejorar la eficiencia operativa.
               </p>
             </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://learn.kevinpowell.co/">
+            <CardItemComponent.Button href="https://github.com/Andres6936/Marketplace">
               Visitar
             </CardItemComponent.Button>
           </CardItemComponent.Root>
 
           <CardItemComponent.Root>
             <CardItemComponent.Title
-              to="https://scrimba.com/learn/introhtmlcss"
+              to="https://github.com/Andres6936/Motowii"
               title="Diseño de aplicaciones para Android e iOS"
             />
             <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
@@ -152,14 +152,14 @@ export function ProjectsContent() {
                 aplicaciones móviles.
               </p>
             </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://scrimba.com/learn/introhtmlcss">
+            <CardItemComponent.Button href="https://github.com/Andres6936/Motowii">
               Visitar
             </CardItemComponent.Button>
           </CardItemComponent.Root>
 
           <CardItemComponent.Root>
             <CardItemComponent.Title
-              to="https://scrimba.com/learn/responsive"
+              to="https://github.com/Andres6936/AStarAlgorithm"
               title="Implementación de algoritmos (Pathfinding, A*, Dijkstra)"
             />
             <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
@@ -169,14 +169,14 @@ export function ProjectsContent() {
                 C++ para el uso de grafos y ECS (Entity-Component-System).
               </p>
             </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://scrimba.com/learn/responsive">
+            <CardItemComponent.Button href="https://github.com/Andres6936/AStarAlgorithm">
               Visitar
             </CardItemComponent.Button>
           </CardItemComponent.Root>
 
           <CardItemComponent.Root>
             <CardItemComponent.Title
-              to="https://beyondcss.dev/"
+              to="https://github.com/Andres6936/Doryen"
               title="Diseño e implementación de motor gráfico"
             />
             <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
@@ -192,7 +192,7 @@ export function ProjectsContent() {
                 Fonts.
               </p>
             </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://beyondcss.dev/">
+            <CardItemComponent.Button href="https://github.com/Andres6936/Doryen">
               Visitar
             </CardItemComponent.Button>
           </CardItemComponent.Root>
