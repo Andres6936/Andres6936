@@ -1,4 +1,4 @@
-import * as CardItemComponent from "../components/CardItem";
+import * as CardItemComponent from "@/components/CardItem";
 
 export function ProjectsContent() {
   return (
@@ -22,9 +22,16 @@ export function ProjectsContent() {
             <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
             <CardItemComponent.Description>
               <p>
-                Bring a Frontend Mentor design to life and create your own CSS
-                design system while building a multi-page and responsive space
-                travel website, including interactions with JavaScript.
+                Biblia Serralta es un sitio web con notas biblicas y libros
+                sobre escritos por un verdadero cristiano, Luis Rafael Serralta.
+                El sitio original cuenta con una estructura poco navegable,
+                propia de un sitio web antiguo.
+              </p>
+
+              <p>
+                El proyecto consistió en actualizar la interfaz y mejorar la
+                experiencia del usuario, utilizando tecnologías modernas y
+                mejores prácticas de diseño.
               </p>
             </CardItemComponent.Description>
             <CardItemComponent.Button href="https://scrimba.com/learn/spacetravel">
@@ -40,9 +47,17 @@ export function ProjectsContent() {
             <CardItemComponent.Labels labels={["Libre", "Cerrado"]} />
             <CardItemComponent.Description>
               <p>
-                A free drip course which will take 21-days to complete. It goes
-                over thinking responsively, the basics of making responsive
-                layouts with flexbox, and media queries.
+                Implementación y diseño de un sistema gestion y digitalización
+                en la operación diaría de Residuos Ambientales. Incluyendo la
+                automatización de procesos y la reducción de costos, la apertura
+                de solicitudes, el manejo contractual y la gestión de recursos
+                humanos.
+              </p>
+
+              <p>
+                Además, se implementó un sistema de seguimiento en el manejo de
+                residuos para garantizar la transparencia y eficiencia en la
+                gestión de residuos.
               </p>
             </CardItemComponent.Description>
             <CardItemComponent.Button href="https://courses.kevinpowell.co/conquering-responsive-layouts">
@@ -58,13 +73,18 @@ export function ProjectsContent() {
             <CardItemComponent.Labels labels={["Libre", "Cerrado"]} />
             <CardItemComponent.Description>
               <p>
-                <strong>Start writing CSS with confidence!</strong>
+                <strong>¡Fedeltamall e-commerce!</strong>
               </p>
               <p>
-                For people who already have a base in CSS, this course is about
-                diving in and really understanding how CSS is meant to work,
-                helping you overcome frustrations that we run into when writing
-                CSS.
+                Implementación de aplicación para Android y iOS para plataforma
+                de comercio electrónico, con funcionalidades avanzadas de
+                seguridad y optimización de rendimiento.
+              </p>
+
+              <p>
+                La aplicación cuenta con una interfaz intuitiva y fácil de usar,
+                permitiendo a los usuarios realizar compras de manera rápida y
+                segura.
               </p>
             </CardItemComponent.Description>
             <CardItemComponent.Button href="https://cssdemystified.com">
