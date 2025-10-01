@@ -100,19 +100,14 @@ export function ProjectsContent() {
             <CardItemComponent.Labels labels={["Cerrado"]} />
             <CardItemComponent.Description>
               <p>
-                Getting started with flexbox is easy. A nice little display:
-                flex and you have columns.
+                Implementación y diseño de plataforma de digitalización de
+                ordenes de servicio, recordatorios y manejo de usuarios en
+                Servigenerador.
               </p>
               <p>
-                Then it's time for the hard part: figuring out what strange
-                combination of justifying, aligning, growing (or shrinking), you
-                need to cobble together to get it to behave the way you need it
-                to.
-              </p>
-              <p>
-                This course has everything you need to take control of flexbox
-                and start using it to create components, and layouts, with
-                confidence.
+                Características de cargue de evidencia por parte de los
+                operarios en la plataforma, permitiendo un seguimiento y control
+                eficiente de los procesos.
               </p>
             </CardItemComponent.Description>
             <CardItemComponent.Button href="https://flexboxsimplified.com">
@@ -128,11 +123,12 @@ export function ProjectsContent() {
             <CardItemComponent.Labels labels={["Cerrado"]} />
             <CardItemComponent.Description>
               <p>
-                A free course for people who are new to web development, going
-                from the absolute basics of what HTML and CSS even are to
-                creating a responsive, 2-page website. In this course, I cover
-                all of the essentials that you'll need to get started in
-                creating your own websites.
+                Implementación de pasarelas de pago Mercado Page y PSE para la
+                gestión de pagos y facturación electrónica en Artemisa.
+              </p>
+              <p>
+                Integración de sistemas de facturación electrónica y gestión de
+                documentos para mejorar la eficiencia operativa.
               </p>
             </CardItemComponent.Description>
             <CardItemComponent.Button href="https://learn.kevinpowell.co/">
@@ -148,12 +144,12 @@ export function ProjectsContent() {
             <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
             <CardItemComponent.Description>
               <p>
-                Hosted on Scrimba, this free course is for people who are
-                completely new to HTML &amp; CSS.
+                Implementación de ideas o conceptos en aplicaciones móviles para
+                Android e iOS, usando Expo con React Native.
               </p>
               <p>
-                Working up from zero, you'll be building your first multi-page
-                sites when you are done.
+                Publicación de aplicaciones y distribución en tiendas de
+                aplicaciones móviles.
               </p>
             </CardItemComponent.Description>
             <CardItemComponent.Button href="https://scrimba.com/learn/introhtmlcss">
@@ -169,15 +165,9 @@ export function ProjectsContent() {
             <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
             <CardItemComponent.Description>
               <p>
-                Taking off where the HTML &amp; CSS Crash course leaves off,
-                this course takes you from the basics of HTML &amp; CSS and
-                dives in deep.
+                Implementación de algoritmos (Pathfinding, A*, Dijkstra) usando
+                C++ para el uso de grafos y ECS (Entity-Component-System).
               </p>
-              <p>
-                It covers CSS in-depth, from general styling, typography, and
-                layouts using flexbox and grid.
-              </p>
-              <p>This course requires a membership with Scrimba.</p>
             </CardItemComponent.Description>
             <CardItemComponent.Button href="https://scrimba.com/learn/responsive">
               Visitar
@@ -192,17 +182,14 @@ export function ProjectsContent() {
             <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
             <CardItemComponent.Description>
               <p>
-                Authoring stylesheets is about more than simply writing a few
-                lines of CSS these days.
+                Diseño e implementación de motor gráfico usando C++ para
+                terminales con algoritmos de búsqueda, renderizado, gestión de
+                entidades y componentes.
               </p>
               <p>
-                We have pre-processors, post-processors, design systems, and
-                many different naming conventions.
-              </p>
-              <p>
-                In this course I'll be looking at using Sass to develope
-                reusable design systems, explore sane naming convetions, and use
-                tools like Vite and PostCSS to optimize your builds.
+                Motor gráfico enfocado en la creación de juegos y aplicaciones
+                interactivas usando un simulación de terminal con True Type
+                Fonts.
               </p>
             </CardItemComponent.Description>
             <CardItemComponent.Button href="https://beyondcss.dev/">
