@@ -1,8 +1,13 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import tsconfigPaths from "vite-tsconfig-paths";
+import { reactRouter } from "@react-router/dev/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [tsconfigPaths(), react()],
+  base: process.env.GITHUB_ACTIONS
+    ? `/${process.env.GITHUB_REPOSITORY_NAME}/`
+    : "/",
+  plugins: [reactRouter()],
+  resolve: {
+    tsconfigPaths: true,
+  },
 });
