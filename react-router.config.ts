@@ -1,9 +1,8 @@
 import type { Config } from "@react-router/dev/config";
+import { resolveBasename } from "./scripts/resolver";
 
 export default {
-  basename: process.env.GITHUB_ACTIONS
-    ? `/${process.env.GITHUB_REPOSITORY_NAME}/`
-    : "/",
+  basename: resolveBasename(),
   ssr: false,
   prerender: true,
 } satisfies Config;
