@@ -20,7 +20,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "types": ["bun", "vite/client"],
+    "types": ["node", "bun", "vite/client"],
     "rootDirs": [".", "./.react-router/types"],
     "baseUrl": "./",
     "paths": {
