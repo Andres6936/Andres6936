@@ -121,4 +121,6 @@ const PROJECTS = [
   },
 ];
 
-export { PROJECTS };
+type ProjectItemType = (typeof PROJECTS)[number];
+
+export { PROJECTS, type ProjectItemType };

@@ -1,6 +1,11 @@
+import { useWindowSize } from "@uidotdev/usehooks";
+import { chunk } from "es-toolkit/array";
 import * as CardItemComponent from "@/components/CardItem";
+import { PROJECTS, ProjectItemType } from "@/lib/projects";
 
 export function ProjectsContent() {
+  const size = useWindowSize();
+
   return (
     <main id="main-content">
       <div className="container flow">
@@ -14,196 +19,45 @@ export function ProjectsContent() {
         </p>
       </div>
 
-      <div className="masonry masonry-wrapper masonry-switcher">
-        <div className="masonry-flow">
-          <CardItemComponent.Root>
-            <CardItemComponent.Title
-              to="https://github.com/Andres6936/Serralta"
-              title="Renovación de la Biblia Serralta"
-            />
-            <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
-            <CardItemComponent.Description>
-              <p>
-                Biblia Serralta es un sitio web con notas biblicas y libros
-                sobre escritos por un verdadero cristiano, Luis Rafael Serralta.
-                El sitio original cuenta con una estructura poco navegable,
-                propia de un sitio web antiguo.
-              </p>
-
-              <p>
-                El proyecto consistió en actualizar la interfaz y mejorar la
-                experiencia del usuario, utilizando tecnologías modernas y
-                mejores prácticas de diseño.
-              </p>
-            </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://github.com/Andres6936/Serralta">
-              Visitar
-            </CardItemComponent.Button>
-          </CardItemComponent.Root>
-
-          <CardItemComponent.Root>
-            <CardItemComponent.Title
-              to="https://servigenerador.com/"
-              title="Digitalización en Servigenerador"
-            />
-            <CardItemComponent.Labels labels={["Cerrado"]} />
-            <CardItemComponent.Description>
-              <p>
-                Implementación y diseño de plataforma de digitalización de
-                ordenes de servicio, recordatorios y manejo de usuarios en
-                Servigenerador.
-              </p>
-              <p>
-                Características de cargue de evidencia por parte de los
-                operarios en la plataforma, permitiendo un seguimiento y control
-                eficiente de los procesos.
-              </p>
-            </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://servigenerador.com/">
-              Visitar
-            </CardItemComponent.Button>
-          </CardItemComponent.Root>
-
-          <CardItemComponent.Root>
-            <CardItemComponent.Title
-              to="https://github.com/Andres6936/AStarAlgorithm"
-              title="Implementación de algoritmos (Pathfinding, A*, Dijkstra)"
-            />
-            <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
-            <CardItemComponent.Description>
-              <p>
-                Implementación de algoritmos (Pathfinding, A*, Dijkstra) usando
-                C++ para el uso de grafos y ECS (Entity-Component-System).
-              </p>
-            </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://github.com/Andres6936/AStarAlgorithm">
-              Visitar
-            </CardItemComponent.Button>
-          </CardItemComponent.Root>
-        </div>
-
-        <div className="masonry-flow">
-          <CardItemComponent.Root>
-            <CardItemComponent.Title
-              to="https://www.residuosambientales.com/"
-              title="Automatización de Residuos Ambientales"
-            />
-            <CardItemComponent.Labels labels={["Libre", "Cerrado"]} />
-            <CardItemComponent.Description>
-              <p>
-                Implementación y diseño de un sistema gestion y digitalización
-                en la operación diaría de Residuos Ambientales. Incluyendo la
-                automatización de procesos y la reducción de costos, la apertura
-                de solicitudes, el manejo contractual y la gestión de recursos
-                humanos.
-              </p>
-
-              <p>
-                Además, se implementó un sistema de seguimiento en el manejo de
-                residuos para garantizar la transparencia y eficiencia en la
-                gestión de residuos.
-              </p>
-            </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://www.residuosambientales.com/">
-              Visitar
-            </CardItemComponent.Button>
-          </CardItemComponent.Root>
-
-          <CardItemComponent.Root>
-            <CardItemComponent.Title
-              to="https://github.com/Andres6936/Marketplace"
-              title="Implementación pasarelas de pago Mercado Page y PSE"
-            />
-            <CardItemComponent.Labels labels={["Cerrado"]} />
-            <CardItemComponent.Description>
-              <p>
-                Implementación de pasarelas de pago Mercado Page y PSE para la
-                gestión de pagos y facturación electrónica en Artemisa.
-              </p>
-              <p>
-                Integración de sistemas de facturación electrónica y gestión de
-                documentos para mejorar la eficiencia operativa.
-              </p>
-            </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://github.com/Andres6936/Marketplace">
-              Visitar
-            </CardItemComponent.Button>
-          </CardItemComponent.Root>
-
-          <CardItemComponent.Root>
-            <CardItemComponent.Title
-              to="https://github.com/Andres6936/Doryen"
-              title="Diseño e implementación de motor gráfico"
-            />
-            <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
-            <CardItemComponent.Description>
-              <p>
-                Diseño e implementación de motor gráfico usando C++ para
-                terminales con algoritmos de búsqueda, renderizado, gestión de
-                entidades y componentes.
-              </p>
-              <p>
-                Motor gráfico enfocado en la creación de juegos y aplicaciones
-                interactivas usando un simulación de terminal con True Type
-                Fonts.
-              </p>
-            </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://github.com/Andres6936/Doryen">
-              Visitar
-            </CardItemComponent.Button>
-          </CardItemComponent.Root>
-        </div>
-
-        <div className="masonry-flow">
-          <CardItemComponent.Root>
-            <CardItemComponent.Title
-              to="https://fedeltamall.com.co/"
-              title="Aplicación de e-commerce para Android e iOS"
-            />
-            <CardItemComponent.Labels labels={["Libre", "Cerrado"]} />
-            <CardItemComponent.Description>
-              <p>
-                <strong>¡Fedeltamall e-commerce!</strong>
-              </p>
-              <p>
-                Implementación de aplicación para Android y iOS para plataforma
-                de comercio electrónico, con funcionalidades avanzadas de
-                seguridad y optimización de rendimiento.
-              </p>
-
-              <p>
-                La aplicación cuenta con una interfaz intuitiva y fácil de usar,
-                permitiendo a los usuarios realizar compras de manera rápida y
-                segura.
-              </p>
-            </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://fedeltamall.com.co/">
-              Visitar
-            </CardItemComponent.Button>
-          </CardItemComponent.Root>
-
-          <CardItemComponent.Root>
-            <CardItemComponent.Title
-              to="https://github.com/Andres6936/Motowii"
-              title="Diseño de aplicaciones para Android e iOS"
-            />
-            <CardItemComponent.Labels labels={["Libre", "Abierto"]} />
-            <CardItemComponent.Description>
-              <p>
-                Implementación de ideas o conceptos en aplicaciones móviles para
-                Android e iOS, usando Expo con React Native.
-              </p>
-              <p>
-                Publicación de aplicaciones y distribución en tiendas de
-                aplicaciones móviles.
-              </p>
-            </CardItemComponent.Description>
-            <CardItemComponent.Button href="https://github.com/Andres6936/Motowii">
-              Visitar
-            </CardItemComponent.Button>
-          </CardItemComponent.Root>
-        </div>
-      </div>
+      {size.width && size.width <= 960 ? (
+        <Grid items={PROJECTS} columns={2} />
+      ) : (
+        <Grid items={PROJECTS} columns={3} />
+      )}
     </main>
   );
 }
+
+const Grid = (props: { items: ProjectItemType[]; columns: number }) => {
+  const sizeChunk = Math.floor(props.items.length / props.columns);
+  const chunks = chunk(props.items, sizeChunk);
+
+  return (
+    <div className="masonry masonry-wrapper masonry-switcher">
+      {chunks.map((it) => (
+        <div className="masonry-flow">
+          {it.map((project) => (
+            <Item item={project} />
+          ))}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+const Item = ({ item }: { item: ProjectItemType }) => {
+  return (
+    <CardItemComponent.Root>
+      <CardItemComponent.Title to={item.Title.to} title={item.Title.label} />
+      <CardItemComponent.Labels labels={item.Labels} />
+      <CardItemComponent.Description>
+        {item.Description.map((it) => (
+          <p>{it}</p>
+        ))}
+      </CardItemComponent.Description>
+      <CardItemComponent.Button href={item.Button.href}>
+        {item.Button.label}
+      </CardItemComponent.Button>
+    </CardItemComponent.Root>
+  );
+};
