@@ -19,8 +19,8 @@ export function ProjectsContent() {
         </p>
       </div>
 
-      {size.width && size.width <= 960 ? (
-        <Grid items={PROJECTS} columns={2} />
+      {size.width && size.width < 1280 ? (
+        <Grid items={PROJECTS} columns={size.width < 768 ? 1 : 2} />
       ) : (
         <Grid items={PROJECTS} columns={3} />
       )}
@@ -29,7 +29,7 @@ export function ProjectsContent() {
 }
 
 const Grid = (props: { items: ProjectItemType[]; columns: number }) => {
-  const sizeChunk = Math.floor(props.items.length / props.columns);
+  const sizeChunk = Math.ceil(props.items.length / props.columns);
   const chunks = chunk(props.items, sizeChunk);
 
   return (
