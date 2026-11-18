@@ -29,18 +29,19 @@ export function Hero() {
         <picture>
           <source
             type="image/avif"
-            srcSet="/img/BGx720.avif 300w, /img/BGx1080.avif 600w, /img/BGx4K.avif 900w"
+            srcSet="/img/BGx720.avif 720w, /img/BGx1080.avif 1080w, /img/BGx4K.avif 2160w"
+            sizes="(max-width: 768px) 90vw, 400px"
           />
           <source
             type="image/webp"
-            srcSet="/img/BGx720.webp 300w, /img/BGx1080.webp 600w, /img/BGx4K.webp 900w"
+            srcSet="/img/BGx720.webp 720w, /img/BGx1080.webp 1080w, /img/BGx4K.webp 2160w"
+            sizes="(max-width: 768px) 90vw, 400px"
           />
           <img
             src="/img/BGx720.webp"
             width="400"
             height="400"
             alt="Joan Photo"
-            loading="lazy"
             decoding="async"
           />
         </picture>
