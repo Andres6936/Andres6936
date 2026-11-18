@@ -1,0 +1,34 @@
+/* keyframes that change the color variable */
+@keyframes gradient-change {
+    to {
+        --text-gradiant-color-1: oklch(0.585 0.185 242);
+        --text-gradiant-color-2: oklch(0.685 0.115 232);
+    }
+}
+
+.Header {
+    --text-gradiant-color-1: oklch(0.471 0.128 255.4);
+    --text-gradiant-color-2: oklch(0.42 0.155 266);
+
+    /* apply variable changes over time */
+    animation: gradient-change 7s linear infinite alternate;
+
+    background: linear-gradient(
+        /*
+      in oklch produces more vibrant gradient results
+      learn more https://developer.chrome.com/docs/css-ui/access-colors-spaces#color_interpolation
+    */
+        to right in oklch,
+        /* use the variables in a gradient (or wherever!) */
+        var(--text-gradiant-color-1),
+        var(--text-gradiant-color-2)
+    );
+
+    /* old browser support */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* modern browser version */
+    background-clip: text;
+    color: transparent;
+}

@@ -1,4 +1,4 @@
-import { ContactForm } from "@/components/ContactForm.tsx";
+import { ContactForm } from "~/components/ContactForm.tsx";
 
 export function ContactContent() {
   return (
