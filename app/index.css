@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sen:wght@400..800&display=swap");
 
+@property --text-gradiant-color-1 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: transparent;
+}
+
+@property --text-gradiant-color-2 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: transparent;
+}
+
 :root {
     --section-spacing: 3.5rem;
     --clr-primary-100: #ffb199;

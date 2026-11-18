@@ -1,7 +1,7 @@
 import { useWindowSize } from "@uidotdev/usehooks";
 import { chunk } from "es-toolkit/array";
-import * as CardItemComponent from "@/components/CardItem";
-import { PROJECTS, ProjectItemType } from "@/lib/projects";
+import * as CardItemComponent from "~/components/CardItem";
+import { PROJECTS, ProjectItemType } from "~/lib/projects";
 
 export function ProjectsContent() {
   const size = useWindowSize();

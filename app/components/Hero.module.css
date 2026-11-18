@@ -1,4 +1,3 @@
-
 .Hero {
     margin-bottom: var(--section-spacing);
     display: grid;
@@ -38,11 +37,13 @@
     background: white;
     align-self: start;
     box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15);
+    max-width: 70vw;
+    margin-inline: auto;
 }
 
 .Hero picture > img {
     border-radius: 0.25em;
-    width: inherit;
+    width: 100%;
     height: 100%;
     max-width: inherit;
     max-height: inherit;
@@ -69,7 +70,11 @@
     left: -0.5em;
     right: -0.5em;
     background-color: var(--clr-primary-400);
-    background-image: linear-gradient(145deg, var(--clr-youtube-400), var(--clr-primary-300));
+    background-image: linear-gradient(
+        145deg,
+        var(--clr-youtube-400),
+        var(--clr-primary-300)
+    );
     grid-row: 1/2;
     z-index: -1;
     border-radius: 1em;
